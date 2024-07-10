@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 150px;
+    height: 250px;
+    border: 30px solid gray;
+    margin:0 auto;
+    position: relative;
+    top:80px;
+    border-radius: 40px 40px 0px 0px;
+}
+div{
+    width: 270px;
+    height: 270px;
+    border: 1px solid gray;
+    background-color: gray;
+    border-radius: 50%;
+    margin:0 auto;
+    position: absolute;
+    top: 100px;
+    left:-90px;
+}
+i{
+   position: absolute;
+    font-size:230px;
+    left:20px;
+    top:20px;
+    animation-name: Lock;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+}
+@keyframes Lock {
+    100%{
+        transform: rotate(360deg);
+    }
+}

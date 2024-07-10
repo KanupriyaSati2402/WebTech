@@ -1,0 +1,69 @@
+/* 
+background-image : url("image.jpg")
+background-size : cover/100%
+background-position : center/left/right
+background-repeat :no-repeat/repeat-x/y
+background-attachment : scroll/fixed
+background: for giving multpile colors , we can pass n number of colors with the function linear gradient and to 
+change the direction we write to right
+we have one more function radial-gradient we can't pass direction
+like linear-gradient(to right , then colors) fiest direction will come
+background-color: for single color 
+for giving conic gradient , we will give degree if we want solid colors 
+
+overflow - to avoid overlapping , two values x for horizontal , y for vertical
+*/
+*{
+    background-color: rgb(186, 188, 187);
+}
+section{
+    border: 5px groove;
+    height: 500px;
+    width: 500px;
+    background-image: url("./animal-8748794_1280.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* these properties needs to be used when we use image */
+}
+.section2{
+    background-color: rgb(209, 249, 236);
+    background: linear-gradient( rgb(237, 200, 183),rgb(243, 176, 93),rgb(234, 112, 6)); 
+}
+.section3{
+    background: radial-gradient(rgb(158, 157, 157),rgb(113, 113, 113),rgb(72, 72, 72));
+}
+h1{
+    text-align: center;
+    text-shadow:0px 0px 10px rgb(255, 255, 38) ;
+    text-decoration-line:underline;
+    text-decoration-color: rgb(5, 5, 5);
+    text-decoration-style: wavy;
+    text-decoration-thickness: 5px;
+    letter-spacing: 12px;
+    word-spacing: 4px;
+}
+p{
+    text-indent: 100px;
+    line-height: 15px;
+}
+/* h2{
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    word-break : keepall;
+    writing-mode : horizontal-tb;
+} */
+ #upper{
+text-transform: uppercase;
+ }
+ #lower{
+text-transform: lowercase;
+ }
+#capital{
+    text-transform: capitalize;
+}
+
+
+
+
+

@@ -1,0 +1,39 @@
+/* combinator selector 
+we can target any element based on there relationship between the elements
+types 
+1. descendant selector- 
+symbol of descendant selector is space 
+we target the element based on there ancestors,target all the descendant of a particular element
+
+2. child selector-
+symbol of child selector is >
+-we target the element based on there immediate parent {directly which can be uniquely selected)
+-selects all the elements that are childs of any specific element
+
+3. general sibling selector
+symbol of general sibling selector is ~
+-selects all the elements that are siblings of any specific element
+
+4. adjacent sibling selector
+symbol of adjacent sibling selector is +
+-selects all the elements that are immediate adjacent siblings of any specific element..
+
+
+AND we can't target the ancestors by the descendants
+*/
+
+/* example of descendant */
+
+article #secone p{
+    background-color: aqua;
+    color: black;
+    font-size: 30px;
+}
+
+/* example of child  */
+h1 > p{
+    background-color: rgb(11, 211, 211);
+    color: rgb(236, 8, 8);
+    font-size: 30px;
+}
+/* example of general siblings */

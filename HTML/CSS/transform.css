@@ -1,0 +1,43 @@
+/* transition-timing-function
+-for managing the speed of the elements 
+values-
+linear
+ease thoda time baad slow hoga 
+ease-in
+ease-out
+ease-in-out
+
+
+mix-blend-mode
+The mix-blend-mode property defines how an element's content should blend with its background
+
+filter:drop-shadow(x y x color)
+
+list-style-type:'none'
+
+
+button se yaad karna h kuch 
+*/
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+div{
+     height: 430px;
+     width: 340px;
+     border: 3px solid black;
+     background-color: rgb(232, 133, 11);
+     filter:drop-shadow(3px 4px 6px red)
+}
+img{
+    height: 400px;
+    width: 300px;
+    margin-left: 15px;
+    padding-top: 15px;
+    mix-blend-mode: multiply;
+}
+/* .div{
+    list-style-type:;
+} */

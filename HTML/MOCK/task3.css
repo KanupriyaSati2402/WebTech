@@ -1,0 +1,163 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding-top: 2px;
+    background-color: #A0DEFF;
+}
+
+.nav-bar {
+    flex-wrap: wrap;
+    position: relative;
+    left: 600px;
+    margin-top: 10px;
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    padding: 20px;
+    margin-right: -20px;
+}
+.one:hover{
+    background-color: #5AB2FF;
+}
+.two:hover{
+    background-color: #5AB2FF;
+}
+.three:hover{
+    background-color: #5AB2FF;
+}
+.four:hover{
+    background-color: #5AB2FF;
+}
+.five:hover{
+    background-color: #5AB2FF;
+}
+.navbar i {
+    margin-top: 20px;
+    font-size: 45px;
+    margin-left: 16px;
+}
+
+.container {
+    display: flex;
+    height: 535px;
+    background-color: #FFF9D0;
+}
+.content {
+    background-color: #A0DEFF;
+    width: 50%;
+    padding: 22px;
+    border-radius: 0px 450px 400px 800px;
+}
+.content h1{
+    font-size: 42px;
+}
+.content h4{
+    font-size: 22px;
+}
+.content p{
+    font-size: 18px;
+    line-height: 19px;
+
+}
+.images {
+    width: 50%;
+    display: grid;
+    gap: 15px;
+    grid-template-areas: 
+        "box1 box1 box2 box2 box2"
+        "box1 box1 box2 box2 box2"
+        "box1 box1 box2 box2 box2"
+        "box1 box1 box3 box3 box3"
+        "box4 box4 box3 box3 box3"
+        "box4 box4 box5 box5 box5"
+        "box4 box4 box5 box5 box5";
+}
+
+.box1, .box2, .box3, .box4, .box5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.box1 {
+    grid-area: box1;
+
+}
+
+.box2 {
+    grid-area: box2;
+}
+
+.box3 {
+    grid-area: box3;
+}
+
+.box4 {
+    grid-area: box4;
+}
+
+.box5 {
+    grid-area: box5;
+}
+.box1 img{
+    width: 300%;
+    height: 100%;
+}
+.box1:hover{
+    box-shadow:8px 8px 8px black ;
+}
+.box2:hover{
+    box-shadow:8px 8px 8px black ;
+}
+.box3:hover{
+    box-shadow:8px 8px 8px black ;
+}
+.box4:hover{
+    box-shadow:8px 8px 8px black ;
+}
+.box5:hover{
+    box-shadow:8px 8px 8px black ;
+}
+.box2 img{
+    width: 130%;
+    height: 100%;
+}
+.box3 img{
+    width: 150%;
+    height: 130%;
+}
+.box4 img{
+    width: 130%;
+    height: 100%;
+}
+.box5 img{
+    width: 180%;
+    height: 150%;
+}
+button{
+    padding: 3px;
+    width: 50%;
+    height: 80%;
+    font-size: 22px;
+    background-color: #5AB2FF;
+    margin-top: 50px;
+    border: 0px groove;
+}
+button:hover{
+    background-color: #CAF4FF;
+    box-shadow: 4px 4px 4px black;
+}

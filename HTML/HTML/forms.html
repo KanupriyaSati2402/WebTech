@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- form 
+      we have form tag 
+    <form action="" method=""></form>
+    inside it we have two attributes action and method 
+    action attribute specifies where to send the form data when the form is submitted
+
+    method attribute specifies the HTTP method or action to use when sending/fetch the form data after submitting
+    the form
+    3 values
+    get is used when we login 
+    post when we signup 
+    dialog is used for popup forms type
+    
+    
+    if we want to make a form to create label of the form we use label tag inside which we have 
+    we have input tag for taking input
+    we should try to avoid br we make them inside a div container
+
+    with the help of id and for attribute we can connect label and input tag
+
+    default behavious of html form is refreshing.
+
+    novalidation attribute in form tag can be written to make the validation useless , we can only use inside
+    form tag 
+
+    enctype is used to transfer big data 
+    has 3 values multipart , application , text 
+    -->
+    <form action="" method=""></form>
+
+
+      <div>
+        <label for="username">Username:</label>
+        <input type="text" name="" id="username" pattern="[A-Za-z0-9]{10}" required autocomplete="on"/>
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="" id="email" />
+      </div>
+
+
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" name="" id="password" />
+      </div>
+      <div>
+        <label for="Dateofbirth">Date of Birth:</label>
+        <input type="date" name="" id="Dateofbirth" />
+      </div>
+
+
+      <div>
+        <!-- we need to add same name to each to make it radio -->
+        <label for="Gender">Gender:</label>
+        <span
+          ><input type="radio" name="Gender" id="male" />
+          <label for="male">Male</label></span
+        >
+        <span
+          ><input type="radio" name="Gender" id="female" />
+          <label for="female">Female</label></span
+        >
+        <span
+          ><input type="radio" name="Gender" id="Other" />
+          <label for="Other">Other</label></span
+        >
+      </div>
+      <div>
+        <label for="Skills">Skills Set</label>
+
+        <span>
+          <input type="checkbox" name="Skills" id="Web Technologies" value="Web Technologies" />
+          <label for="Web Technologies">Web Technologies</label></span
+        >
+
+        <span>
+          <input type="checkbox" name="Skills" id="SQL" value="SQL"/>
+          <label for="SQL">SQL</label></span
+        >
+
+        <span>
+          <input type="checkbox" name="Skills" id="Java" value="Java" />
+          <label for="Java">Java</label></span
+        >
+
+        <span
+          ><input type="checkbox" name="Skills" id="python" value="python"/>
+          <label for="python">Python</label></span
+        >
+
+        <span
+          ><input type="checkbox" name="Skills" id="cpp" value="cpp" />
+          <label for="cpp">C++</label></span
+        >
+      </div>
+      <div>
+        <label for="image">Image:</label>
+        <input type="file" name="" id="image" />
+      </div>
+      <div>
+        <label for="contactno">Contact No.:</label>
+        <input type="tel" id="contactno" size="100" min="5"/>
+      </div>
+      <div>
+        <label for="address">Address</label>
+        <textarea name="" id="addres" cols="30" rows="5"></textarea>
+      </div>
+      
+      <div>
+        <label for="Location">Select Nearest Location</label>
+        <select name="" id="">
+        <option value="">delhi</option>
+        <option value="">Noida</option>
+        <option value="" selected>Gurgaon</option>
+        <option value="">Punjab</option>
+        </select>
+      </div>
+
+      <div>
+        <!-- two ways to create submit button  -->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </div>
+      
+        <input type="text" name="" id="" list="places">
+
+
+        <datalist id="places">
+            <option value="delhi"></option>
+            <option value="Noida"></option>
+            <option value="Gurgaon" ></option>
+            <option value="dehradun"></option>
+            <option value="dwarka"></option>
+        </datalist>
+       
+    </form>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" 
+  content="width=device-width, 
+  initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p>This is an <u>underlined</u> text.</p>
+  <p>This is an <ins>inserted</ins> text.</p>
+  <p>This is a <del>deleted</del> text.</p>
+  <p>This is a <strike>Strike</strike></p>
+  <p>This is a <sub>subscript</sub> text.</p>
+  <p>This is a <sup>superscript</sup> text.</p>
+</body>
+</html>
+
+
+

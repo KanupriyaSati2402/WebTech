@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.clock{
+    height: 450px;
+    width: 450px;
+    border: 10px solid rgb(18, 17, 17);
+    border-radius: 50%;
+    position: relative;
+    left: 380px;
+    top: 200px;
+    background-color: rgb(253, 223, 54);
+
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    left: 623px;
+    bottom: 22px;
+}
+
+.niddle1{
+    width: 7%;
+      height: 5px;
+      background: black;
+      position: relative;
+      left: 540px;
+      bottom: 30px;
+      transform-origin: bottom;
+      transition-duration: 5s; 
+      transition-delay: 2s;
+}
+.niddle1{
+    transform: rotate(180deg);
+}
+.niddle2{
+    width: 5px;
+      height: 140px;
+      background: black;
+      position: relative;
+      left: 625px;
+      bottom: 170px;
+
+}
+
+.niddle3{
+    width: 2px;
+      height: 140px;
+      background: black;
+      position: relative;
+      left: 628px;
+      bottom: 178px;
+
+}
+.one{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 700px;
+    top: 250px;
+    
+}
+.two{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 750px;
+    top: 300px;
+
+}
+
+.three{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 770px;
+    top: 380px;
+}
+
+.four{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 760px;
+    top: 480px;
+}
+
+.five{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 700px;
+    top: 560px;
+}
+
+.six{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 600px;
+    top: 590px;
+    
+    
+}
+
+.seven{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 490px;
+    top: 550px;
+}
+
+.eight{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 420px;
+    top: 450px;
+}
+.nine{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 420px;
+    top: 370px;
+    
+}
+
+.ten{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 450px;
+    top: 300px;
+}
+
+.eleven{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 500px;
+    top: 250px;
+}
+
+.twelve{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 600px;
+    top: 220px;
+}

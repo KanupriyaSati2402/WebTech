@@ -1,0 +1,80 @@
+/* text formatting 
+-color
+-text-align
+-text-transform
+-text-decoration
+-text-shadow
+-letter-spacing
+-word-spacing
+-text-indention
+
+text effect -
+1.text-overflow : clip/ellipses
+2.word-wrap : break word
+3.word-break : keepall/breakall
+4.writing-mode : horizontal/vertical-rl
+
+
+1.color - for changing cokor of the text 
+
+there are 6 ways to give colors in css for making different shades 
+1.predefined
+2.rgb - red green blue , the values vary from 0 t0 255 , 0 is the darkest shade and 255 the lighest
+3.rgba - red green blue aplha ( for opacity , or we can say transparency) value varies from 0 to 1 .
+4.hsl - hue , saturation and lightness , degree is passed a value in hue and for sl we pass percentage 
+ . for eg hsl(150deg , 50% , 80%).
+5.hsla - hue , saturation and luminance , alpha 
+6.hexadecimal values - # se start hoga and will contain 6 digits
+
+2.text-align-
+-left 
+-right 
+-center 
+-justify 
+-initial 
+-inherit
+
+3.text-transform - it is used for transform the text in the html document 
+it has 3 values inside it 
+- capitalize
+- lowercase
+- uppercase
+
+4.text-shadown- used to provide shadow to text syntax - it contains 4 values 
+like text-shadow: x y z color;
+
+5.letter-spacing-
+it is used to provide space between letters of a word
+
+6.word-spacing -
+it is used to provide space between words
+
+7.text-indention-
+it is used to provide space between lines of a paragraph from there they are starting and the left margin , it is
+empty void space 
+and only used for first-line
+
+8.text-decoration-line-
+-underline
+-overline
+-line-through
+-none
+to change the color of the line we use text-decoration-color
+to give styling to the line we use text-decoration-style has values dashed , dotted, wavy , double , none,solid
+*/
+h1{
+    text-align: center;
+    text-transform:capitalize;
+    text-shadow:0px 0px 10px yellow ;
+    text-decoration-line:underline;
+    text-decoration-color: rgb(35, 35, 36);
+    text-decoration-style: none;
+    text-decoration-thickness: 5px;
+    letter-spacing: 20px;
+    word-spacing: 40px;
+}
+p{
+    text-indent: 100px;
+    line-height: 50px;
+    
+}

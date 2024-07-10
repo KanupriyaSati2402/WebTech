@@ -1,0 +1,69 @@
+/* 
+grid - 2d layout for arranging elements in both direction
+for parent give display grid 
+
+then we need to give grid-area to every individual element for defining the area for that particular elements
+then
+grid-template-area - for defining the space 
+
+*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width:800px;
+    height:500px;
+    border:4px solid black;
+    margin: 0 auto;
+    margin-top:40px;
+    display:grid;
+    gap:10px;
+    grid-template-areas: "box1 box2 box2 box3 box3"
+                         "box1 box4 box5 box5 box6"
+                         "box7 box4 box5 box5 box6"
+                         "box7 box8 box8 box9 box6";
+    background-color: gray;
+
+}
+.box1{
+    grid-area: box1;
+    background-color: red;
+}
+.box2{
+    grid-area: box2;
+    background-color: rgb(44, 249, 249);
+}
+.box3{
+    grid-area: box3;
+    background-color: rgb(241, 171, 22);
+}
+.box4{
+    grid-area: box4;
+    background-color: rgb(239, 164, 14);
+}
+.box5{
+    grid-area: box5;
+    background-color: rgb(246, 248, 245);
+}
+.box6{
+    grid-area: box6;
+    background-color: red;
+}
+.box7{
+    grid-area: box7;
+    background-color: rgb(243, 244, 243);
+}
+.box8{
+    grid-area: box8;
+    background-color: red;
+}
+.box9{
+    grid-area: box9;
+    background-color: rgb(4, 230, 234);
+}
+.box1 img{
+    width:-300px;
+    height:50px;
+}

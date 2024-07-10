@@ -1,0 +1,61 @@
+/* 
+Display - the way to display elements in a certain way, for the elements to be arranged there  parent 
+should have display-flex
+flex- 1d layout to arranging the elements in one direction , either in x direction or in y direction 
+default direction is row or x direction
+
+1.flex-direction - to change the direction of the elements in the flex container have 4 values
+-column 
+-column-reverse
+-row
+-row-reverse
+
+2.flex-wrap - to wrap the flex elements in the flex container
+-wrap
+-wrap-reverse
+-no-wrap
+
+3.justify-content - to align the flex elements in the flex container in the main axis (x-direction)
+-start
+-end
+-center
+-space-evenly
+-space-between
+-space-around
+
+4.align-items /align-content - to align the flex elements in the flex container in the cross axis (y direction)
+-start
+-end
+-center
+above 3 are the values for align-item ,space properties are not there
+space-evenly
+space-between
+space-around
+
+order properties
+order - to change the order of the flex elements in the flex container
+for shifting left then - 
+for shifting right then +
+
+
+
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 500px;
+    height: 500px;
+    border:1px solid black;
+    display:flex;  
+    flex: wrap;
+}
+div{
+    width:120px;
+    height: 120px;
+    border:1px solid black;
+}

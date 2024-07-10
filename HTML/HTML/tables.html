@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <!-- Table
+   we have table tag <table></table> container for your table 
+   for heading of the table we have <th></th>
+   we can create the table only row by row by using <tr><tr>
+    and inside the row we can create the column by using <td></td>
+
+   we have thead tag for heading and hbody for body 
+   and if we need to merge two or more rows we use rowspan 
+   and if we need to merge two or more columns we use colspan
+   cannot be used in tr table tag 
+   only in td and th 
+
+   cell spacing - used in table tag to make space between two cells 
+   cell padding - used to make space between text and cell border , space inside the cell 
+   both can be used only in table tag 
+  -->
+    <table cellspacing="15px" 
+    cellpadding="20px">
+    
+        <thead>
+        <tr>
+        <th>Time</th>
+        <th>Subjects</th>
+        <th>Trainer</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>11:00-1:00</td>
+            <td rowspan="2">SQL</td>
+            <td>Nithin sir</td>
+        </tr>
+        <tr>
+            <td>2:00-4:00</td>
+            <td>Hemant sir</td>
+        </tr>
+        <tr>
+            <td>4:00-6:00</td>
+            <td colspan="2">JAVA</td>
+            
+        </tr>
+    </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body {
+    background-color: #f6f5f8;
+    color: #8a2be2;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 50px;
+
+}
+form {
+    background-color: #8a2be2;
+    color: #f6f5f8;
+    padding-left: 20px;
+    border: #800bed solid 1px;
+}
+h1{
+    margin-left: 10em;
+}
+
+.style{
+    margin: 10px;
+
+}
+.styles{
+    display: flex;
+   
+}
+</style>
+</head>
+<body>
+    <h1 id="heading"><ins>STUDENT REGISTRATION FORM</ins></h1>
+    <form>
+
+        <div>
+            <label for="firstname">FIRST NAME</label>
+            <span><input type="text" class="style" pattern="[A-Za-z0-9]{10}" required>
+            <label>&lpar; max 30 characters a-z and A-Z &rpar;</label></span>
+        </div>
+        <div>
+            <label for="lastname">LAST NAME</label>
+            <span><input type="text" class="style"  pattern="[A-Za-z0-9]{10}"  required>
+            <label>&lpar; max 30 characters a-z and A-Z &rpar;</label></span>
+        </div>
+        <div>
+            <label for="dob">DATE OF BIRTH</label>
+            <input type="date" class="style" >
+        </div>
+        <div>
+            <label for="email">EMAIL ID</label>
+            <input type="email" class="style">
+        </div>
+        <div>
+            <label for="mobileno">MOBILE NUMBER</label>
+            <span><input type="tel" class="style" max="10" required>
+                <label>&lpar; 10 digit number &rpar;</label></span>
+        </div>
+        <div>
+            <label for="Gender">Gender:</label>
+        <span
+          ><input type="radio" name="Gender" id="male" class="style" />
+          <label for="male">Male</label></span
+        >
+        <span
+          ><input type="radio" name="Gender" id="female" class="style" />
+          <label for="female">Female</label></span>
+        </div>
+        <div>
+            <label for="address">ADDRESS</label>
+            <textarea name="" id="addres" cols="50" rows="5" class="style"></textarea>
+            
+        </div>
+        <div>
+            <label for="city">CITY</label>
+            <input type="text" class="style"  pattern="[A-Za-z0-9]{10}" >
+            <label>&lpar; max 30 characters a-z and A-Z &rpar;</label>
+        </div>
+        <div>
+            <label for="pincode">PIN CODE</label>
+            <input type="number" class="style"  max="6" min="1"><label>&lpar; 6 digit number &rpar;</label>
+        </div>
+        <div>
+            <label for="state">STATE</label>
+            <select class="style">
+                <option>Delhi</option>
+                <option>Uttarakhand</option>
+                <option>Kerala</option>
+                <option>Uttar Pradesh</option>
+                <option>Tamil Nadu</option>
+                <option>Maharastra</option>
+                <option>Gujrat</option>
+            </select>
+        </div>
+        <div>
+            <label for="country">COUNTRY</label>
+            <select class="style">
+                <option>India</option>
+                <option>Pakistan</option>
+                <option>Sri Lanka</option>
+                <option>Bhutan</option>
+                <option>USA</option>
+                <option>Europe</option>
+                <option>asmdjhd</option>
+            </select>
+        </div>
+        <div>
+            <label for="HOBBIES">Hobbies</label>
+            <span>
+              <input type="checkbox" name="HOBBIES" id="HOBBIES" value="" class="style" />
+              <label for="HOBBIES">Drawing</label></span>
+            <span>
+              <input type="checkbox" name="HOBBIES" id="HOBBIES" value="" class="style"/>
+              <label for="HOBBIES">Singing</label></span>
+            <span>
+              <input type="checkbox" name="HOBBIES" id="HOBBIES" value="" class="style"/>
+              <label for="HOBBIES">Dancing</label></span>
+              <span>
+                <input type="checkbox" name="HOBBIES" id="HOBBIES" value="" class="style" />
+                <label for="HOBBIES">Sketching</label></span>
+                
+                    <input type="checkbox" name="HOBBIES" id="HOBBIES" value="" class="style"/>
+                    <label for="HOBBIES">Others</label>
+            
+             <input type="text">
+
+        </div>
+        <div >
+            <label for="Qualification"><h3>Qualification</h3></label>
+            <table >
+                    <thead>
+                        <TR>
+                            <TH></TH>
+                            <TH>S.NO</TH>
+                            <TH>EXAMINATION</TH>
+                            <TH>BOARD</TH>
+                            <TH>PERCENTAGE(%)</TH>
+                            <TH>YEAR OF PASSING</TH>
+                        </TR>
+                        <TR>
+                            <TH><h5> </h5></TH>
+                            <TH><H5>1</H5></TH>
+                            <TH><H5>CLASS X </H5></TH>
+                            <TH><input type="text"></TH>
+                            <TH><input type="text"></TH>
+                            <TH><input type="text"></TH>
+                        </TR>
+                        <TR>
+                            <TH><h5> </h5></TH>
+                            <TH><H5>2</H5></TH>
+                            <TH><H5>CLASS XII </H5></TH>
+                            <TH><input type="text"></TH>
+                            <TH><input type="text"></TH>
+                            <TH><input type="text"></TH>
+                        </TR>
+                        <TR>
+                            <TH><h5> </h5></TH>
+                            <TH><H5>3</H5></TH>
+                            <TH><H5>GRADUATION </H5></TH>
+                            <TH><input type="text"></TH>
+                            <TH><input type="text"></TH>
+                            <TH><input type="text"></TH>
+                        </TR>
+                        <TR>
+                            <TH><h5> </h5></TH>
+                            <TH><H5>4</H5></TH>
+                            <TH><H5>MASTERS </H5></TH>
+                            <TH><input type="text"></TH>
+                            <TH><input type="text"></TH>
+                            <TH><input type="text"></TH>
+                        </TR>
+                
+                    </thead>
+              
+            </table>
+             
+        </div>
+        <div>
+            <label for="Courses">Courses Applied for </label>
+            <span><input type="radio" name="Courses" id="Courses" class="style"/>
+            <label for="">BCA</label></span>
+          <span><input type="radio" name="Courses" id="Courses" class="style"/>
+            <label for="">B.Com</label></span>
+            <span><input type="radio" name="Courses" id="Courses" class="style"/>
+                <label for="">B.Sc</label></span>
+              <span><input type="radio" name="Courses" id="Courses" class="style"/>
+                <label for="">B.A</label></span>
+            
+        </div>
+        <input type="submit" class="style">
+        <input type="reset" class="style">
+ 
+    </form>
+</body>
+</html>

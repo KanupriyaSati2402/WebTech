@@ -1,0 +1,71 @@
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* always give default styling before creating any web page  */
+
+/* attribute  */
+/* input[type=text]{
+  width: 600px;
+} */
+
+a:link{
+    color: black;
+}
+a:active{
+    color: rgb(171, 206, 101);
+}
+a:visited{
+    color: rgb(239, 23, 23);
+}
+input:focus{
+    background:blueviolet;
+}
+a:hover{
+    color: blue;
+    font-size: 22px;
+}
+/* p:first-child{
+    color: brown;
+}
+p:nth-child(2){
+    color: blue;
+}
+p:nth-child(3){
+    color: green;
+}
+/* p:last-child{
+    color: aqua;
+} */ 
+ /* div span:first-of-type{
+    color: blueviolet;
+ }
+
+div:has(span){
+    background-color: aqua;
+    color: black;
+} */
+
+
+p::first-line{
+    color: chocolate;
+}
+p::first-letter{
+    font-size: 52px;
+}
+p::before{
+    content: "😎⭐" ;
+    size: 30px;
+}
+p::after{
+    content:"😁😿";
+} 
+li::marker{
+    color: red; /*used when we use list*/
+}
+p::selection{
+    background-color: yellow;
+}
+
+

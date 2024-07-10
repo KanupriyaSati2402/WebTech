@@ -1,0 +1,140 @@
+/* css stands for cascading style sheet , used to style webpages .
+was introduced by hakon wium lie in 1994 
+1995 goes to w3c and then they started working on the css 
+1996 they introduced first version of css that was CSS1
+1998 they introduced CSS2 with some extra features 
+from 1999 they started working on CSS3
+2011 they introduced CSS3 with some new features like animations, gradients, rounded corners etc
+
+w3c is looking after CSS also .
+
+
+There are 3 ways to give CSS :
+1.Inline = style attribute is given under opening tag and the value given is inline css
+
+drawbacks of inline  
+
+to be precure from css conflicts we use css separtely , 
+time consuming while modifying , 
+code readability decreases 
+
+2.Internal = style tag is given in head section (html and css are both in same file)
+
+these are called selectors
+id = # 
+class = . 
+
+
+drawbacks for internal
+conflict of css loading before html (the sequence should be html , css , javascript)
+error handling is not easy
+
+
+3.External = link tag is given in head section and styles are written in external file with
+
+two principle to follow to be a good developer
+dry - do not repeat yourself ( not repeating code again and again)
+soc - separation of concern , helps in development speed 
+
+./ for current directory 
+../ for parent directory 
+
+which will execute first depends on priority 
+1 goes to inline , it depends on the distance  from the element 
+2 and 3 depends on the distance 
+
+
+body is only for the elements present, nowadays * is used 
+
+SELECTORS 
+- used to target any particular html element for styling .
+
+types of selectors 
+5 types of selectors 
+
+1.Simple selector 
+- tag/element selector (h1, p, div)
+- class selector ( .class-name)
+- id selector (#id-name) - should be unique
+- universal selector (*) - to give style to each and every element in the html body or for complete html file 
+- grouping selector - to group and style some elements of html when their id and class are already in use 
+they can be given as (h2,p,main) this is a group 
+we can make this group using tag selector , class selector or id selector 
+
+2.Combinator selector
+- descendant selector (space) - to target the elements which are inside another element
+- child selector (>) - to target the elements which are direct child of another element
+- adjacent sibling selector (+) - to target the elements which are adjacent to another element
+- general sibling selector (~) - to target the elements which are sibling to another element
+
+3.Attribute selector 
+- Tag[attribute] - to target the elements which have a particular attribute
+- Tag[attribute="value"] - to target the elements which have a particular attribute with a particular value
+
+syntax - tag[attribute=value]{}
+
+4.Pseudo Class Selector
+- is a keyword added to selector that specify a special state of the selected element.
+syntax- 
+pseudo-class{
+property: value;
+}
+
+1.Dynamic pseudo classes
+hover -can be used for any element
+active
+focus-only works with input field
+visited
+link
+
+
+2. Structural pseudo classes
+first-child 
+last-child
+nth-child
+first-of-type
+last-of-type
+
+
+3.UI element pseudo classes- used in validation attribute , first they were present in js now in html 
+enabled
+disabled
+checked
+
+4.has pseudo class , if some particular element have any other specific element that we use it to style 
+for ex- if div has image
+
+5.Pseudo element selector-used to style specific part of any element.
+-::first-letter
+-::first-line
+-::before
+-::after
+-::selection
+-::marker
+
+priorities of the simple selector
+id , class, tag , universal 
+
+*/
+*{
+   margin: 0;
+   padding: 0;
+}
+#head{
+    color: rgb(174, 251, 7);
+    background-color: rgb(0, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+.header{
+    color: blueviolet;
+     background-color: bisque;
+} 
+h1{
+    color: rgb(3, 78, 78);
+    
+    border-radius: black solid 2px;
+}
+h1,h3{
+    font-size: 42px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

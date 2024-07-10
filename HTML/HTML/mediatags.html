@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- media tags 
+     1. audio tag - to add/insert audio on our webpage, browser doesn't know audio is any media tag that why
+     we use controls attribute to make the control available, and controls are boolean attribute , autoplay attribute 
+     to make the audio play automatically whenever someone visits the website, loop when the song ends it stops to
+     make it continous we  use loop 
+     two ways to give src in audio 
+     1. relative path = ../ or ./ we can go outside of current folder by taking current folder reference 
+     2. absolute path = will take root folder reference, as a developer we should not use it 
+
+    2. video tag - browser will take it as image if we do not pass the controls attribute , and same functions for 
+       video tag as audio tag like autoplay and loop, poster attribute is used to show the image before the video starts playing
+    -->
+       
+     <audio src="./separation-185196.mp3" controls loop></audio>
+     <video src="./212453_small.mp4" height="500px" width="500px" controls>
+        
+     </video>
+     <!-- work of iframe is to display any document inside our webpage -->
+     <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/K1Ov6HHIf48?si=4ku04ex201pPsU6V" 
+     \title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+     encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+     allowfullscreen></iframe>
+
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7014.089839251082!2d77.05203588628795!3d28.478193833670318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19a9de93fad5%3A0x958e21ba94559206!2sDefence%20Colony%2C%20Sector%2017%2C%20Gurugram%2C%20Haryana%20122022!5e0!3m2!1sen!2sin!4v1718185220086!5m2!1sen!2sin" 
+     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+
+     <!-- qrserver , chart.googleapis.com -->
+    <img src="https://api.qrserver.com/v1/create-qr-code/
+    ?size=150x150&data=https://www.facebook.com/login.php/">
+
+    </body>
+</html>

@@ -1,0 +1,31 @@
+/* section::-webkit-scrollbar{
+    display: none;
+} */
+
+/* font-size will increase the size 
+font-weight will specify the thickness 
+font-family will help to change the font type of the text
+
+*/
+h2{
+font-size: 40px;
+font-weight: 900; 
+font-family: "myfont";
+
+}
+@font-face {
+    font-family: "myfont";
+    src: url(./PlaywriteNZ-VariableFont_wght.ttf);
+}
+input{
+    outline-offset: 12px;
+    outline: 2px solid #4CAF50; /* shorthand for the style color and width properties */
+}
+/* outline line inside the border of the input field  
+it has 4 values '
+outline-color
+outline-style
+outline-offset
+outline-width*/
+/* put the download link in working folder then use @font-face inside the css file give name to the font-family inside it anyname as a string
+and then use src and then url of the font*/

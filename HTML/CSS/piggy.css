@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    background-color: bisque;
+    overflow: hidden;
+}
+img{
+    width: 300px;
+    height:400px;
+    
+}
+section{
+    width: 500px;
+    height:500px;
+    background-color: rgb(241, 156, 170);
+    border-radius: 50%;
+    position: relative;
+    border: 1px solid black;
+    bottom: 50px;
+    left: 380px;
+    z-index: 7;
+}
+div{
+    width: 220px;
+    height:180px;
+    background-color: rgb(245, 204, 210);
+    border-radius: 50%;
+    position: relative;
+    top: 260px;
+    left: 140px;
+    
+}
+.nostril{
+    width: 30px;
+    height:30px;
+    background-color: rgb(242,99,123);
+    border-radius: 50%;
+    position: relative;
+    top:60px;
+    left: 50px;
+}
+.nostril1{
+    width: 30px;
+    height:30px;
+    background-color: rgb(242,99,123);
+    border-radius: 50%;
+    position: relative;
+    top:30px;
+    left: 130px;
+}
+.eyes1{
+    width: 90px;
+    height:90px;
+    background-color: rgb(248, 247, 247);
+    border-radius: 50%;
+    position: relative;
+    top:310px;
+    left: 670px;
+    z-index: 8;
+}
+.eyes2{
+    width: 90px;
+    height:90px;
+    background-color: rgb(248, 247, 247);
+    border-radius: 50%;
+    position: relative;
+    top:220px;
+    left: 500px;
+    z-index: 8;
+}
+.pupil{
+    width: 20px;
+    height:20px;
+    z-index: 9;
+    background-color: black;
+    position: relative;
+    top:190px;
+    left: 535px;
+}
+.pupil2{
+    width: 20px;
+    height:20px;
+    z-index: 9;
+    background-color: black;
+    position: relative;
+    top:170px;
+    left: 700px;
+}
+.left{
+    width: 200px;
+    height:200px;
+    position:relative;
+    bottom: 540px;
+    background-color: pink;
+    left:400px;
+    z-index: 3;
+    border-radius: 30px 20px 40px 40px;
+}
+.right{
+    width: 200px;
+    height:200px;
+    position:relative;
+    bottom: 738px;
+    background-color: pink;
+    left:667px;
+    z-index: 3;
+    border-radius: 20px 30px 40px 40px;
+}
+.ear{
+    width: 200px;
+    height:200px;
+    position:relative;
+    background-color: rgb(248, 98, 123);
+    left:415px;
+    bottom:930px;
+    z-index: 4;
+    border-radius: 30px 20px 10px 20px;
+}
+.ears{
+    width: 200px;
+    height:200px;
+    position:relative;
+    background-color: rgb(248, 98, 123);
+    left:650px;
+    bottom:1125px;
+    z-index: 4;
+    border-radius: 30px 20px 10px 20px;
+}

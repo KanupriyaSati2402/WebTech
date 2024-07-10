@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    width:750px;
+    height:100px;
+    background-color: bisque;
+    margin:0 auto;
+    position: relative;
+    top:200px;
+}
+ul{
+    display: flex;
+    width: 700px;
+    justify-content: space-around;
+}
+ul li{
+    display:flex;
+    flex-wrap: wrap;  
+    width: 7%;
+}
+i{
+    font-size:40px;
+    margin: 10px;
+}
+span{
+    font-size: 22px;
+}
