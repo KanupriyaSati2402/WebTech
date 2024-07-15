@@ -7,14 +7,12 @@ ease-in
 ease-out
 ease-in-out
 
-
 mix-blend-mode
 The mix-blend-mode property defines how an element's content should blend with its background
 
 filter:drop-shadow(x y x color)
 
 list-style-type:'none'
-
 
 button se yaad karna h kuch 
 */
@@ -36,7 +34,7 @@ img{
     width: 300px;
     margin-left: 15px;
     padding-top: 15px;
-    mix-blend-mode: multiply;
+    mix-blend-mode:;
 }
 /* .div{
     list-style-type:;

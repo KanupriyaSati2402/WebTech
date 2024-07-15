@@ -15,7 +15,6 @@ const j=2;
 // reinitialisation not possible
 // const and let are script scope 
 
-
 //HOISTING - accessing variable before its declaration 
 
 //-- is js's default behaviour of moving all declarations to the top of the current scope .
