@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+*::-webkit-scrollbar{
+    display:none;
+}
+.firstnav{
+    width: 100%;
+    height:10px;
+    display: flex;
+}
+.nav input{
+    border-radius: 20px 20px;
+    width:320px;
+    height:30px;
+    text-align: center;
+    margin-left: 80px;
+    outline: none;
+}
+.firstnav .nav{
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    padding:5px;
+    position: relative;
+    left:180px;
+    top:-40px;
+}
+.firstnav .nav span{
+    font-size: 15px;
+    color: white;
+    padding-left: 20px;
+    margin-left:55px;
+}
+.firstnav .nav span:hover{
+    text-decoration-line: underline;
+    transition-duration:1s;
+}
+.nav img{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    right:150px;
+    top:53px;
+}
+
+.firstnav i{
+    font-size: 26px;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+.secondnav{
+    width:100%;
+    height:140px;
+    display: flex;
+}
+.secondnav span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11.5px;
+    flex-wrap: wrap;
+    color: white;
+    position: relative;
+    top:70px;
+    height:30px;
+    /* width:300px; */
+    padding: 10px 20px;
+    margin:5px;
+    text-align: center;
+    background-color: rgb(46, 45, 45);
+    border-radius: 30px 30px 30px 30px;
+}
+.secondnav span:hover{
+    background-color: rgb(159, 158, 158);
+    transition-duration: 1s;
+}
+.scroll{
+    display: flex;
+    overflow-x: scroll;
+}
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+.scroll img{
+    flex-wrap: wrap;
+    padding: 20px;
+    position: relative;
+    width: 600px;
+    height:400px;
+    margin-left: -30px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.smallcards {
+    width: 100%;
+    height:150px;
+    display:flex;
+    margin: 0 auto;
+}
+.smallcards img{
+    width:120px;
+    height:120px;
+    margin-left: 10px;
+    border-radius: 20px 20px 20px 20px;
+    justify-content: space-around;
+}
+.smallcards img:hover{
+    transform:scale(1.2);
+}
+.watchnow h2{
+     margin-left: 20px;
+}
+.watchnow img{
+    width: 95%;
+    height:300px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.cards {
+    display:flex;
+    overflow-x: scroll;
+}
+.cards img{
+    width: 250px;
+    height:250px;
+    margin-left: 20px;
+    margin-top: 15px;
+    flex-wrap:wrap;
+}
+.cards::-webkit-scrollbar{
+ display:none;
+}
+h2{
+    margin-left: 20px;
+    color: white;
+}
