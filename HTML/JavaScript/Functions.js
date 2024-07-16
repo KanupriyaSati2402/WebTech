@@ -38,17 +38,17 @@ let b=function()
 //-- there are two ways to call a nested function
 //-- 1. by calling the child function inside parent
 //-- 2. function currying
-/*
-function parent(){
-let a=10;
 
-function child(){
-let b =20;
- }
-child()
-}
-parent() -- this is 1st way
-*/
+// function parent(){
+// let a=10;
+
+// function child(){
+// let b =20;
+//  }
+// child()
+// }
+// parent() 
+// this is 1st way
 
 
 //JAVASCRIPT ENGINE
@@ -82,4 +82,8 @@ parent() -- this is 1st way
 
 // there is only one global execution context but many execution context 
 
+// because of LEXICAL SCOPE -- accessing the variable from its outer scope , the data will be accessed from the heap area
+//closure is also present
+
 //End
+
