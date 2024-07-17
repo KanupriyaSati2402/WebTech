@@ -23,11 +23,10 @@ we don't have lexical scoping
 there is no parent at the time or child execution 
 -- in first method there is lexical scoping , in function currying the parent data will come from closure object 
 closure object -- it is object which holds the data which is reqiured to child 
-will be created whenever the child function will be accessing parents data , doesn't matter the parent are there in context or not 
+will be created whenever the child function will be accessing parents data , 
+doesn't matter the parent are there in context or not 
 
 any data which is not accessed by the child will be stored in closure
-
-
 
 QUESTIONS
 --Write a js function to find factorial of number using prompt 

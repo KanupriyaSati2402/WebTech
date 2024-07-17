@@ -20,7 +20,7 @@ let c=add(10,20);
 
 // 3.Function with expression
 //-- function is called by the variable name and the function is declared inside the variable name.(the time they are 
-// given in a variable )
+// given in a variable they are called function with expression )
 /*
 function(){
 let a=20;
