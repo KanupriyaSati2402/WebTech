@@ -1,6 +1,6 @@
 /*
 This keyword 
-
+-- by default it refers to a window object
 --for every function there is a internal class (syngtax is big , complexity) , to make understable we have made functions
 
 -- when we pass this then we can see the class 
@@ -64,8 +64,6 @@ function printdata(a,b){
 
 //now to each object when they needs to be called we require to bind it with the printing function 
 
-
-
 //With this method, we can bind an object to a common function, 
 // so that the function gives different results when needed
 //To perform binding there are three method
@@ -73,7 +71,7 @@ function printdata(a,b){
 // 1. bind
 // 2. call
 // 3. apply
-
+// functionname.call()
 printdata.call(emp1);
 printdata.call(emp2);
 printdata.call(emp3);
@@ -82,12 +80,13 @@ printdata.call(emp3);
 
 //call
 //will return undefined when printing inside clg
-printdata.call(emp1,10,20) // first value is the object , then arguments
+printdata.call(emp1,10,20) // first value is the object , then extra arguments
 
 //apply 
 //will return undefined when printing inside clg
-printdata.apply(emp2,[10,20]) // first value is object , then arguements are passed as array 
+printdata.apply(emp2,[10,20]) // first value is object , then extra arguements are passed as array 
 
 //bind
-//will return a bound function , to invoke the function call it with()
+//will return a bound function when put under clg , to invoke the function call it with()
 console.log(printdata.bind(emp3)());
+                                // -- this is calling of function 667b

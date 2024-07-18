@@ -20,3 +20,4 @@ hoc(head) // passing one function to another
 
 
 //99% of times arrow function 
+

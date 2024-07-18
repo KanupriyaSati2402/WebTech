@@ -29,7 +29,12 @@ let b=function()
 */
 
 // 4.Immediate invoking function expression
-//-- function is called by the variable name and the function is declared inside the variable name and the function.
+//--Immediately calling a function after its declaration.
+//where to use cookies or log in purposes 
+//we can call it only once
+//  (function a(){
+//              }
+//        ());
 
 
 
