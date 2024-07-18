@@ -18,9 +18,6 @@
 //   palindrome(a);  
 
 
-
-
-
 // write a JS program to find the factorial of a number
 // let n = parseInt(prompt("Enter a number"));
 
@@ -38,8 +35,6 @@
 // }
 // result = factorial(n);
 // console.log("Factorial of " + n + " : " + result);
-
-
 
 
 
@@ -63,10 +58,8 @@
 // }
   
 
-
-
 // program to generate fibonacci series up to a certain number
-let number = parseInt(prompt("Enter a number"));
+/*let number = parseInt(prompt("Enter a number"));
 let n1 = 0, n2 = 1, n3;
 
 console.log('Fibonacci Series:');
@@ -80,4 +73,14 @@ while (n3 <= number) {
     n1 = n2;
     n2 = n3;
     n3 = n1 + n2;
+}*/
+
+
+//Even or odd function 
+let num = parseInt(prompt("Enter a number"));
+if(num%2==0){
+ console.log("even number");
 }
+else{
+    console.log("odd number");
+    }
