@@ -35,3 +35,7 @@ console.log(ab.next().value);
 console.log(ab.next().value);
 console.log(ab.next().value);
 
+
+
+
+console.log(ab.next().value);
