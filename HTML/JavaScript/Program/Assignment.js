@@ -14,7 +14,8 @@ function factorial(a){
 }
 console.log(factorial(a))
 
-//palindrome or not 
+palindrome or not 
+
 let b=parseInt(prompt("Enter a number"))
 function palindrome(b){
     let temp=0;
@@ -31,7 +32,8 @@ function palindrome(b){
     }
 }
 
-//array average 
+array average 
+
 let arr=[3,5,2,5,7,9,10]
 function average(arr){
     let sum=0;
@@ -42,7 +44,8 @@ function average(arr){
 }
 console.log(average(arr));
 
-//maximum number 
+maximum number 
+
 let arr1=[3,5,2,5,7,9,10]
 function max(arr1){
     let max=arr[0];
@@ -55,7 +58,8 @@ function max(arr1){
 }
 console.log(max(arr1));
 
-//sum of array
+sum of array
+
 let arr2=[3,5,2,1,6,10,38]
 function sum(arr2){
     let sum=0;
@@ -66,13 +70,14 @@ function sum(arr2){
 }
 console.log(sum(arr2))
 
-//indexof elements
+indexof elements
 
 let arr3=[3,5,2,1,6,10,38]
 console.log(arr3.indexOf(2));
 
-*/
-//element more than the avg of array 
+
+element more than the avg of array 
+
 let arr4=[3,5,2,1,6,10,38]
 function morethanavg(arr4){
     let sum=0;
@@ -89,8 +94,17 @@ function morethanavg(arr4){
 return res
 }
 console.log(morethanavg(arr4));
-
+*/
 //flattern return 
-let n = [[[[[[[[[[10]]]]]]]]]]
-console.log()
 
+let n = [[[[[[[[[[10]]]]]]]]]]
+console.log(n[0][0][0][0][0][0][0][0][0][0]) // normal method 
+
+// shortcut we have a method 
+//flat  -- will return one single array and remove others
+console.log(n.flat(9)); // will return a new array 
+
+let m= [[[[[[40,50,[[[[10]]]]],60,70]]]]]
+console.log(m.flat(5))
+
+//to iterate in we use foreach
