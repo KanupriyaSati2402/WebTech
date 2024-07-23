@@ -64,7 +64,7 @@ let fun1 = new fun(10,20,30,40)
 
 fun1.empid=23;
 console.log(fun1) // we can create a object inside a function and we can access it outside
-let fun2 = new fun(100,200,300,400)
+let fun2 = new fun(100,200,300,400) // creating object of function 
 console.log(fun2) 
 
 //NOTE 

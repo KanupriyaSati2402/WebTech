@@ -6,10 +6,11 @@ Function currying
 -- pointer will come back to gec after complete execution of a function at a time 
 function parent(){
 let a=10;
-function child(){
+RETURN function child(){ // RETURN keyword is to be used in function currying with all the nested function that we are declaraling 
+
 let b=20;
 console.log(a,b)
-function gchild(){
+RETURN function gchild(){
 let c=30;
 console.log(a,b,c)
 };
