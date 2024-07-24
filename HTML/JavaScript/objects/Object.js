@@ -14,7 +14,6 @@ object
 
 1.object using object literals 
 
-
 */
 
 //CRUD OPERATION

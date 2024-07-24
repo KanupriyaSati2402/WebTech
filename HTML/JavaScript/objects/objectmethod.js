@@ -23,8 +23,8 @@ methods are actions that can be performed on objects
 
 */
 //behaviour can be made using two ways 
-//1.using key 
-//2.without key
+//1.using key (any name that stores the function)
+//2.without key (directly giving the function )
 let obj = {
   empName: "sai",
   emopId: 26, //property
@@ -35,6 +35,7 @@ dance(){
   }
 };
 obj.dance(); // without using inside  a key 
+//we can call the function with function name and if given a key than by the keyname
 // obj.dancing();
 // console.log(obj.dancing());
 // we will call this behaviour by 

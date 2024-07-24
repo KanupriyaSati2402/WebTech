@@ -6,7 +6,7 @@ in js array is heterogeneous in nature
 -- in js we can create arrays in two ways 
 1. by using array literals
 syntax for this 
- let arr=[10,"shree",true]
+]let arr=[10,"shree",true]
 
 2. by using array constructor  (using new keyword)
 syntax for this  (work of new keyword is to create object)
