@@ -80,3 +80,7 @@ console.log(String.fromCharCode(97))
 //will return ascii value into character , and it is a string constructor method 
 
 
+let a="5266262782782";
+let bar=a.slice(0,4)
+console.log(bar.padStart(13,'*'))
+
