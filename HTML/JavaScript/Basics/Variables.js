@@ -6,7 +6,8 @@
 let a;
 console.log(a);
 
-var b; 
+var b;  
+var b; // redeclaration
 console.log(b);
 
 const j=2; 
@@ -26,6 +27,6 @@ const j=2;
 // 1.variable
 // 2.function (only in name function , function hoisting is possible)
 
-// in let not possible the variable will be taken inside TDZ that is Temporal dead zone which is a phase between 
+// in let/const not possible the variable will be taken inside TDZ that is Temporal dead zone which is a phase between 
 // declaration and initialisation and it's default value is not given 
 

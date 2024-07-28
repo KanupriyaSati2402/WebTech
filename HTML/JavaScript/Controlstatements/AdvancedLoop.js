@@ -14,6 +14,7 @@ for(const i in arr){
 // in will return index  
 // will work on array 
 // will work on object
+// will work on string
 
 let arr1=[10,20,30,40,50]
 for(const i of arr){
@@ -22,18 +23,19 @@ for(const i of arr){
 // of will return element
 // will work on array 
 // will not work on object
+// will work on string
 
-let str="kanupriya"
-for(const i in str){
-    console.log(i)
-}
+// let str="kanupriya"
+// for(const i in str){
+//     console.log(i)
+// }
 // in will return index
 // will work on string
 
-let str1="kanupriya"
-for(const i of str){
-    console.log(i)
-}
+// let str1="kanupriya"
+// for(const i of str){
+//     console.log(i)
+// }
 // of will return element
 // will work on string
 
