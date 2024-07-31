@@ -11,7 +11,7 @@ FOR CREATION --
 -- to add/insert the created element to the document or any other element
 4.remove()
 -- to remove the element from the document
-5. SetAttribute() 
+5. SetAttribute() - (property)
 -- we can set any attribute () , we pass two values inside it (atrribute name , value) 
 (attribute can be anything which we want to declare )
 6.innerhtml

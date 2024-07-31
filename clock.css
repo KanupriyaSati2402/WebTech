@@ -47,6 +47,7 @@
       position: relative;
       left: 625px;
       bottom: 170px;
+      transform-origin: bottom;
 
 }
 
@@ -57,6 +58,8 @@
       position: relative;
       left: 628px;
       bottom: 178px;
+      transform-origin: top;
+
 
 }
 .one{
