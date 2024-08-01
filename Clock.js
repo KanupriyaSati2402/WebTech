@@ -12,3 +12,5 @@ setInterval (()=>{
     niddle2.style.transform =`rotate(${min*6}deg)`;
     niddle3.style.transform =`rotate(${hour*30}deg)`;
     },1000);
+
+    

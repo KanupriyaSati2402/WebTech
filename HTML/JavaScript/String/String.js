@@ -4,7 +4,7 @@ in js
 types to declare 
 1. " "
 2. ' '
-3. ` `
+3. ` ` -- for multiline string 
 
 */
 
