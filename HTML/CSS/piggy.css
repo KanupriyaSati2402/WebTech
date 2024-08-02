@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: content-box;
     background-color: bisque;
-    overflow: hidden;
+    overflow: nones;
 }
 img{
     width: 300px;

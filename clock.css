@@ -34,12 +34,9 @@
       left: 540px;
       bottom: 30px;
       transform-origin: bottom;
-      transition-duration: 5s; 
-      transition-delay: 2s;
+    
 }
-.niddle1{
-    transform: rotate(180deg);
-}
+
 .niddle2{
     width: 5px;
       height: 140px;
@@ -48,6 +45,7 @@
       left: 625px;
       bottom: 170px;
       transform-origin: bottom;
+  
 
 }
 

@@ -59,7 +59,7 @@ console.log(data1)
 
 //promise methods
 //1.ANY
-//2.ALL `
+//2.ALL 
 //3.RACE
 //4.ALLSETTLED  
 
