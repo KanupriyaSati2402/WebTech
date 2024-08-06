@@ -4,6 +4,7 @@
 //Var is global (can be accessed any where)
 
 let a;
+
 console.log(a);
 
 var b;  

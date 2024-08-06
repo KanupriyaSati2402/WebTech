@@ -1,12 +1,8 @@
 /*
-
 Advanced For Loops 
 1.For in 
 2.For of
-
-
 */
-
 let arr=[10,20,30,40,50]
 for(const i in arr){
     console.log(i)

@@ -7,27 +7,6 @@ a.push(60) // PUSH METHOD  -- will add the element at the last only
 console.log(a)
 
 arr.length for length of the array
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 always use const variable  ( rare case we use let and avoid var)
 */
 

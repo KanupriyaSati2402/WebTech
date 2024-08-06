@@ -1,9 +1,5 @@
 /*
 modules are used to share the code in multiple files 
-
-
-
-
 */
 
 export function sum(a,b){ //use export keyword in the file which we want to module , and the file from which we are exporting is a normal js file while the file in which this will be imported will be a module 
@@ -19,6 +15,7 @@ console.log(sub(30,40));
 //Each file should have a relationship with each other to be executed 
 
 // there are two types of export statments 
+
 //1. Named Export  -- in named export while exporting any stat we will use only export keyword 
 // in named export we have to use { } while importing 
 //while importing we should use the same name 
@@ -34,6 +31,5 @@ export function sub(c,d){
 }
 export default sub();
 
-
 // THE FILES WE ARE NOT USING NEEDS TO BE REMOVED FROM THE FILE 
-//We can share anything 
+// We can share anything 

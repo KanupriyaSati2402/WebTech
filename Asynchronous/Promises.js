@@ -1,15 +1,10 @@
 /*
 Promises
 -- it is a mechanisms to handle async operation
-
 --pending
 --resolve
---reject
-
-
-
+--reject 
 */
-
 let promise =new Promise((resolve,reject)=>{
  
     if(10>30){
@@ -72,3 +67,7 @@ console.log(data1)
 // way to do fetch is 
 // by using promises 
 // async and await 
+
+let promise1 = new Promise(()=>{
+
+})

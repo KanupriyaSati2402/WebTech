@@ -55,3 +55,4 @@ let displayUser = (data) => {
                     
     section.append(card);
 };
+

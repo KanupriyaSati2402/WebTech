@@ -9,9 +9,8 @@ Asynchronous
  -- SetInterval()
 2.Promises
 3.Async and await 
-
 */ 
-//when we want to give some delay  (setTimeOu)
+//when we want to give some delay  (setTimeOuT)
 //and can be executed only once 
 setTimeout(()=>{
 // console.log("dora the explorer is")

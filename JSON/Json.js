@@ -31,10 +31,8 @@ let [a,b,c,d,e]=[...arr]; ... is spread operator
 1.spread operator 
 2.rest parameter 
 
-
 Object destructing 
 --
-
 */
 let arr= [10,20,30,40,50]
 let [a,b,c,d,e]=[...arr];
