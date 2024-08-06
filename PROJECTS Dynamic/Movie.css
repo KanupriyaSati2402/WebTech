@@ -1,0 +1,61 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+i {
+  position: relative;
+  left: 20px;
+  top: 25px;
+  width: 200px;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+li {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  padding: 20px;
+  justify-content: end;
+}
+ul input {
+  width: 250px;
+  height: 30px;
+  position: relative;
+  top: 12px;
+  right: 5px;
+  padding: 12px;
+}
+.cards {
+  height: 300px;
+  width: 250px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgb(13, 13, 13);
+}
+
+.userImage {
+  height: 70%;
+  width: 230px;
+  border-radius: 10px;
+}
+.cards,
+h1,
+p {
+  text-align: center;
+  color: white;
+}
