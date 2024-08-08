@@ -2,6 +2,10 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  overflow-y: none;
+}
+::-webkit-scrollbar{
+  display: none;
 }
 i {
   position: relative;
@@ -9,7 +13,7 @@ i {
   top: 25px;
   width: 200px;
 }
-section {
+.sec {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -41,10 +45,51 @@ ul input {
   height: 30px;
   position: relative;
   top: 12px;
-  left: 45px;
+  left: 15px;
   padding: 12px;
 }
-.cards{
+.scroll{
+  position: relative;
+  top:12px;
+}
+.news{
+  height:85vh;
+  overflow-y: auto;
+}
+.NewContainer{
+  width:75%;
+  height: 400px;
+  border: 2px solid black;
+  position: relative;
+  top:12px;
+  left:10px;
+  padding:5px 10px;
+  
+}
+.asideContainer{
+  padding:22px;
+  width: 20%;
+  height:85vh;
+  border:1px solid black;
+  position:fixed;
+  z-index:10;
+  right:15px;
+  top:82px;
+}
+.goggle,.Bussiness,.Science , .Enter{
+  width:100%;
+  height:80%;
+  display: flex;
+  overflow-x: auto;
+}
+.cardImg{
+  min-width:100%;
+  height:40%;
+  padding:10px;
+}
+
+
+/* .cards{
   height: 100%;
   width:100%;
   display: flex;
@@ -68,4 +113,4 @@ ul input {
 
 .card:hover{
   box-shadow: 5px 5px 5px black;
-}
+} */
