@@ -60,7 +60,7 @@ console.log(empName)// directly we can pass key name , and the squence can be di
 
 //-- array destructing and object destructing difference between
 // -- elements can be skipped in object 
-//-- sequence is not required in it
+//-- sequence is not required in object
 //--rest parameter is not used in object destructing 
 //-- in array we can assign any variable name while in object we directly passs the key name 
 

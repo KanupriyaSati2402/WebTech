@@ -1,4 +1,8 @@
 // let a = document.querySelector(".cards");
+let input = document.querySelector("input")
+let datalist=document.querySelector("datalist")
+let cross=document.querySelector(".cross")
+let popup=document.querySelector(".popup")
 let g=document.querySelector(".goggle")
 let b=document.querySelector(".Bussiness")
 let ent=document.querySelector(".Enter")
@@ -12,10 +16,10 @@ let fetchNews= async(url,container)=>{
 
         })
 }
-fetchNews("https://newsapi.org/v2/everything?q=tesla&from=2024-07-08&sortBy=publishedAt&apiKey=aec1cb22b3c44d0a817601265c01e4f2",g);
-fetchNews("https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=aec1cb22b3c44d0a817601265c01e4f2",b)
-fetchNews("https://newsapi.org/v2/everything?domains=wsj.com&apiKey=aec1cb22b3c44d0a817601265c01e4f2",ent)
-fetchNews("https://newsapi.org/v2/everything?q=apple&from=2024-08-07&to=2024-08-07&sortBy=popularity&apiKey=aec1cb22b3c44d0a817601265c01e4f2",s)
+// fetchNews("https://newsapi.org/v2/everything?q=google&from=2024-08-07&to=2024-08-09&sortBy=popularity&apiKey=aec1cb22b3c44d0a817601265c01e4f2",g);
+// fetchNews("https://newsapi.org/v2/everything?q=entertainment&from=2024-08-07&to=2024-08-09&sortBy=popularity&apiKey=aec1cb22b3c44d0a817601265c01e4f2",b)
+// fetchNews("https://newsapi.org/v2/everything?q=entertainment&from=2024-08-07&to=2024-08-09&sortBy=popularity&apiKey=aec1cb22b3c44d0a817601265c01e4f2",ent)
+// fetchNews("https://newsapi.org/v2/everything?q=science&from=2024-08-07&to=2024-08-09&sortBy=popularity&apiKey=aec1cb22b3c44d0a817601265c01e4f2",s)
 
 
 let displaynews= (data,container)=>{ // which data in which container 
@@ -25,8 +29,33 @@ let displaynews= (data,container)=>{ // which data in which container
                    <p>${data.title}</p>
                    <p>Author:${data.author}</p>
                    <p>Published At: <br>${data.publishedAt}</p>`
+
+                   cards.addEventListener("click", (e)=>{
+                    popup.style.visibility="visible";
+                   })
                    container.append(cards);
 }
+cross.addEventListener("click",()=>{
+  popup.style.visibility="hidden";
+})
+
+datalist.addEventListener("click",()=>{
+  let value = input.value;
+  if(value=="Bussiness"){
+     // fetchNews("https://newsapi.org/v2/everything?q=entertainment&from=2024-08-07&to=2024-08-09&sortBy=popularity&apiKey=aec1cb22b3c44d0a817601265c01e4f2",b)
+  }
+  else if(value=="Goggle"){
+ //   fetchNews("https://newsapi.org/v2/everything?q=google&from=2024-08-07&to=2024-08-09&sortBy=popularity&apiKey=aec1cb22b3c44d0a817601265c01e4f2",g);
+  }
+  else if (value=="Entertainment"){
+// fetchNews("https://newsapi.org/v2/everything?q=entertainment&from=2024-08-07&to=2024-08-09&sortBy=popularity&apiKey=aec1cb22b3c44d0a817601265c01e4f2",ent)
+  }
+  else if(value=="Science"){
+// fetchNews("https://newsapi.org/v2/everything?q=science&from=2024-08-07&to=2024-08-09&sortBy=popularity&apiKey=aec1cb22b3c44d0a817601265c01e4f2",s)
+  }
+
+})
+
 
 // let displayBuss=(data,container)=>{
 //     let cards=document.createElement("div");

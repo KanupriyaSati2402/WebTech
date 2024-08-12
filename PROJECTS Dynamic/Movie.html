@@ -14,18 +14,34 @@
     <title>Movie</title>
   </head>
   <body>
+    <section class="popup"><div class="pop">
+      <div class="cross"><i class="fa-solid fa-xmark"></i></div>
+      <div class="popupData"></div>
+      <div class="button">
+        <button>Close</button>
+        <button>See News</button>
+      </div>
+    </div></section>
     <section class="sec">
-      <i class="fa-solid fa-igloo fa-2xl" style="color: #b197fc"></i>
+      <i class="fa-solid fa-igloo fa-2xl logo" style="color: #b197fc"></i>
       <nav>
         <ul>
           <li>Home</li>
-          <li>Movies</li>
-          <li>TV Shows</li>
+          <li>News</li>
+          <li>Breaking</li>
           <li>Genres</li>
           <li>Top Rated</li>
           <li>Trending</li>
-          <li>New Releases</li>
-          <input type="search" placeholder="Search Here" />
+          <li>Top News</li>
+          <input type="search" placeholder="Search Here" list="options" />
+          <!-- <datalist id="options" class="select">
+              <option value="Google">
+              <option value="Business">
+              <option value="Science">
+              <option value="Entertainment">
+          </datalist> -->
+         
+
         </ul>
       </nav>
     </section>
@@ -58,6 +74,8 @@
   </section>
   
 </section>
+
+
 <!--     
     <article class="cards"></article> -->
     <script src="./Movie.js"></script>
