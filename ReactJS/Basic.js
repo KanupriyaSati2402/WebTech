@@ -30,4 +30,6 @@
 
 //Features of REACT JS 
 //1.declarative -- predefined code are there in js , import that code and use , donot think about the implementation
-//2.Imperative -- 
+
+
+// npm , npx , yarn 
