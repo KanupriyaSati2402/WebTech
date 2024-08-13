@@ -33,3 +33,30 @@
 
 
 // npm , npx , yarn 
+
+
+//inbuilt scripts /folders/dependencies everything is present in node modules , this is heart of react file 
+// react is heavy because of it only  
+
+//for making vite (faster then npm npx and script is downloaded parallely)
+// commands
+// npm create vite@latest 
+// cd vite-project
+// npm install
+// npm run dev
+
+
+//in npm npx the entry point is index.js and in vite it is main.jsx (javascript and xml)
+
+// without reloading the data is loaded 
+
+//module bundler --to bundler all the modules together (like home , login etc ) and return new module for browser
+//types of module bundler 
+//webpack is module bundler
+// vite is also module bundler but it is faster than webpack
+//parcel
+//rollup -- used in vite 
+//Browsify
+
+//hot module replacement  dependencies -- which helps in dynamically updation of the new elements or data in the webpage
+//-- exchanges , adds, or removes modules while an application is running without a full reload 

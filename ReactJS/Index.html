@@ -14,3 +14,59 @@
 </html>
 
 <!-- babel is the transfiler which will convert jsx into browser understandable language  -->
+
+<!-- difference btw npm npx and yarn  -->
+
+<!-- Command
+    start command 
+
+    1.yarn start 
+    2.npm start 
+    3.npm run dev
+
+    test command 
+
+    1.yarn test 
+    2.npm test
+
+    build command 
+
+    --when we have to use the project for production (publishment)
+    -- when we are working and only we can see our project it needs to be converted into production to deloy the website 
+    1.yarn build 
+    2.npm run build 
+
+
+    Eject command 
+
+    -- is used to modify or write configuration by our own and when we does so then the predefined are deleted  -->
+
+
+
+    How react works internally 
+
+    -- it is for spa , when we pass our html file to the browser than a dom is created (real dom)
+    -- at the same time virtual is also created 
+    -- in react we have virtual dom (replica of real dom )
+    -- react application interact with the virtual dom not on the real dom 
+    -- whenever there is any change changes happen in virtual dom and after change it will create a new virtual dom 
+    -- the changes will be present on the new virtual dom 
+    -- diffing algo -- it will compare new virtual dom to old virtual dom and find the changes 
+    -- patching algo -- will updated in the real dom 
+    -- and this entire process is known as reconcilation process 
+    -- once this process is done real dom will be changed and again virtual dom will be changed as it should be the 
+    -- replica of real dom
+    -- so this is how react works internally
+
+    -- process is synchronous 
+    -- and for more updation will take more time 
+    -- for this we have react fiber  -- this is aysnch 
+
+    -- react fiber - it is an internal js engine used to make react faster and smarter 
+    -- it is used to make react more efficient and faster
+    -- in older version of react we didn't have it thats why they were slow now it is there 
+    -- the current version of react fiber is 16.8 
+
+    --in react fiber the process of reconcilation will happen but in asynch way 
+
+    -- the dom methods will not work in react as react only intreact with virtual dom 
