@@ -1,35 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// import React,{Component} from 'react'
 
-function App() {
-  const [count, setCount] = useState(0)
+// export default class App extends Component { // App is sub class and componet is super class 
+//     render(){ // component is the object class ( that it is the parent for all the component we will create by ourself )
+//         let a=30;
+//         console.log(a)
+//         let handlechange = ()=>{
 
-  return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+//         }
+//         return <div>Hello this CBC </div>
+//     }
+// }
 
-export default App
+// we have to use render to show the elements in the webpage 
+
+
+//functional based component 
+import React from 'react'
+
+const App=()=>{
+return <div><h1>Hello this CBC </h1></div>
+
+    }

@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.nav{
+    height: 11vh;
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+}
+.cards{
+    height: 30vh;
+    min-width:22%;
+   
+    margin-right: 25px;
+    margin-left: 20px;
+
+}
+.carousels{
+    height: 35vh;
+    width: 100%;
+    border: 1px solid ;
+    display:flex;
+    overflow-x: auto;
+    align-items: center;
+    padding: 2px;
+
+}
+.carousels::-webkit-scrollbar{
+    display: none;
+}
+.image{
+    width: 100%;
+    height: 100%;
+}
