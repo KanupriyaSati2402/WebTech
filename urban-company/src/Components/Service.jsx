@@ -4,6 +4,7 @@ import RightService from "./RightService";
 const Service =()=>{
 
     return <section className="Service">
+    
      <LeftService/>
      <RightService/>
     </section>;
