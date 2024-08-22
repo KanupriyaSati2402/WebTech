@@ -3,7 +3,7 @@ import React, {useState} from 'react' // IMPORT THE HOOK THEN ONLY USE
 const FBC =()=>{
     let [count,setCount]=useState(0) // it will accept an state value , (to achieve state in fbc)
     //we have to destruct , thix will return an array that array have two values
-    // state name , uodator function 
+    // state name , updator function 
     let handleIncrement =()=>{
         setCount(count+1)
         setCount(count+5)
