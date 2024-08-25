@@ -14,7 +14,16 @@ const Parent= ({da:{details,setDetails}}) => {
   )
 }
 export default Parent;
-
 //props -- used to share data from parent component to child component 
 //-- props are property 
 //syntax == props name ={props value}
+
+//props drilling -- process of transferring the 
+//data from outer most component to inner most component is known as drilling
+//to avoid props drilling we have context API 
+
+//techniques to manage state 
+//for managing the state we have state management 3 things 
+//1.redux ( more in demand )
+//2.context api 
+//3.flux 
