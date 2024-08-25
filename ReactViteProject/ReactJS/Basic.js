@@ -1,5 +1,4 @@
-                                                //REACT 
-
+//REACT 
 
 //framework is a collection of libraries
 //Libraries is set of predefined code and structure
