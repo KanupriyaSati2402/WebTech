@@ -28,7 +28,8 @@
 //2. Some ES-6 features 
 
 //Features of REACT JS 
-//1.declarative -- predefined code are there in js , import that code and use , donot think about the implementation
+//1.declarative -- predefined code are there in js , import that code and use , 
+//donot think about the implementation
 
 
 // npm , npx , yarn 
@@ -57,5 +58,7 @@
 //rollup -- used in vite 
 //Browsify
 
-//hot module replacement  dependencies -- which helps in dynamically updation of the new elements or data in the webpage
-//-- exchanges , adds, or removes modules while an application is running without a full reload 
+//hot module replacement  dependencies -- 
+//which helps in dynamically updation of the new elements or data in the webpage
+//-- exchanges , adds, or removes modules while an application is running without 
+//a full reload 

@@ -122,3 +122,20 @@ ul li input{
     display:flex;
 
 }
+
+/* Salon */
+
+.salon{
+    width: 100%;
+    height: 22vh;
+    display:flex;
+}
+.sal{
+    width: 50%;
+    height: 22vh;
+    display:flex;
+}
+.salimage{
+   display:flex;
+   border-radius: 2%;
+}
