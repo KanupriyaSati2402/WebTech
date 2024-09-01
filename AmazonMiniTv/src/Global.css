@@ -61,15 +61,16 @@ li:hover{
 }
 .card{
     height: 90%;
-    width: 100%;
+    min-width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     overflow-x: auto;
 }
 .section .image{
-    width: 100%;
+    min-width: 100%;
     height: 100%;
+    display: flex;
     border-radius: 2%;
 }
 /* section1 */

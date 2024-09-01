@@ -52,4 +52,37 @@
     mix-blend-mode:multiply;
 }
 /* home  */
+.Nav{
+    height: 13vh;
+    min-width: 100%;
+    display: flex;
+    background-color: #48CFCB;
+}
+.navbar{
+    background-color: #48CFCB;
+    padding:13px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    background-color: #48CFCB ;
+  
+}
+ul li{
+  padding:12px 20px;
+  text-decoration: none;
+  background-color:  #48CFCB;
 
+}
+ul li Link{
+    text-decoration-line: none;
+}
+
+.photo1{
+    min-width:80%;
+    height:490px;
+    position: absolute;
+    bottom:10px;
+    left:500px;
+    mix-blend-mode:multiply;
+}
