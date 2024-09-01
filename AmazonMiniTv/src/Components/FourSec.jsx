@@ -13,7 +13,7 @@ import four10 from '../Assets/four10.jpg'
 const FourSec = () => {
     let data4=[four1,four2,four3,four4,four5,four6,four7,four8,four9,four10]
   return <section className='Foursec'>
-    <h3>Helllooooooooooooooooo</h3>
+    <h3>New in Dubbed International Movies</h3>
     <section>
     {data4.map((ele,i)=>{
       return  <div className='card4' key={i}>

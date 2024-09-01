@@ -14,11 +14,14 @@ import third11 from '../Assets/third11.jpg'
 const ThirdSec = () => {
     let data3 =[third1,third2,third3,third4,third5,third6,third7,third8,third9,third10,third11]
   return <section className='Thirdsec'>
+     <h3>New in Dubbed Series</h3>
+     <section>
     {data3.map((ele,i)=>{
         return <div className='card3' key={i}>
             <img className='image3' src={ele}/>
         </div>
     })}
+    </section>
   </section>
 }
 

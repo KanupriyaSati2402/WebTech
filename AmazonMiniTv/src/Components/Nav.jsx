@@ -1,7 +1,6 @@
 import React from 'react'
 import logo from "../Assets/logo.webp"
-import download from "../Assets/download.webp"
-import icon from "../Assets/icon.webp"
+// import { DiAptana } from "react-icons/di";
 
 const Nav = () => {
   return (
@@ -18,6 +17,8 @@ const Nav = () => {
         <li>Tamil</li>
         <li>Telugu</li>
       </ul>
+      {/* <DiAptana  className='setting'/> */}
+
      </div>
 
     </section>

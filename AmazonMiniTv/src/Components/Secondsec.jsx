@@ -13,11 +13,16 @@ const Secondsec = () => {
   let data1 = [img1, img2, img3, img4, img5, img6, img7, img8, img9];
   return (
     <section className="Secondsec">
-      {data1.map((ele, i) => {
-       return <div className="cards2" key={i}>
-          <img className="image2" src={ele} />
-        </div>;
-      })}
+        <h3>Popular Web Series</h3>
+        <section>
+        {data1.map((ele, i) => {
+          return (
+            <div className="cards" key={i}>
+              <img className="image" src={ele} />
+            </div>
+          );
+        })}
+      </section>
     </section>
   );
 };

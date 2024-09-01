@@ -18,17 +18,21 @@ const Firstsec = () => {
     secimg5,
     secimg6,
     secimg7,
-    secimg8.secimg9,
+    secimg8,
+    secimg9,
   ];
   return (
     <section className="Firstsec">
-      {data.map((ele, i) => {
-        return (
-          <div className="cards" key={i}>
-            <img className="image" src={ele} />
-          </div>
-        );
-      })}
+      <h3>Trending Top 10 on miniTV</h3>
+      <section>
+        {data.map((ele, i) => {
+          return (
+            <div className="cards" key={i}>
+              <img className="image" src={ele} />
+            </div>
+          );
+        })}
+      </section>
     </section>
   );
 };

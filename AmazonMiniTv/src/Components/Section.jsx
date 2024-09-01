@@ -6,15 +6,12 @@ import section4 from '../Assets/section4.jpeg'
 
 const Section = () => {
     let data4=[section1,section2,section3,section4]
-    return <section className='Foursec'>
-      <h3>Helllooooooooooooooooo</h3>
-      <section>
+    return <section className='Section'>
       {data4.map((ele,i)=>{
-        return  <div className='card4' key={i}>
-              <img src={ele} className='image4'/>
+        return  <div className='card' key={i}>
+              <img src={ele} className='image'/>
           </div>
       })}
-      </section>
     </section>
 }
 
