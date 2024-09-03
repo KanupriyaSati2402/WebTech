@@ -49,14 +49,14 @@ li:hover{
 }
 /* section  */
 
-.section{
-    height: 38vh;
+.Section{
+    height: 60vh;
     width: 100%;
     border: 1px solid ;
     display:flex;
     overflow-x: auto;
     padding: 2px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-content: space-between;
 }
 .card{
@@ -71,14 +71,12 @@ li:hover{
     min-width: 100%;
     height: 100%;
     display: flex;
-    border-radius: 2%;
 }
 /* section1 */
 .cards{
     height: 30vh;
     min-width:22%;
     margin-left: 20px;
-    border-radius: 2%;
 }
 .Firstsec{
     height: 38vh;
@@ -97,10 +95,9 @@ li:hover{
 .image{
     width: 100%;
     height: 100%;
-    border-radius: 2%;
 }
 .Firstsec section{
-    height: 90%;
+    height: 85%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -112,13 +109,11 @@ li:hover{
 color:white;
 }
 
-
-
 /* section2 */
 .card2{
     height: 30vh;
     min-width:22%;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     border-radius: 2%;
 }
 .Secondsec{
@@ -141,7 +136,7 @@ color:white;
     border-radius: 2%;
 }
 .Secondsec section{
-    height: 90%;
+    height: 84%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -161,7 +156,7 @@ color:white;
     border-radius: 2%;
 }
 .Thirdsec{
-    height: 38vh;
+    height: 38vh                                       ;
     width: 100%;
     border: 1px solid ;
     display:flex;
@@ -180,7 +175,7 @@ color:white;
     border-radius: 2%;
 }
 .Thirdsec section{
-    height: 90%;
+    height: 85%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -222,7 +217,7 @@ color:white;
     border-radius: 2%;
 }
 .Foursec section{
-    height: 90%;
+    height: 85%;
     width: 100%;
     display: flex;
     align-items: center;

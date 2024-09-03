@@ -48,7 +48,6 @@
     height:490px;
     position: absolute;
     left:500px;
- 
     mix-blend-mode:multiply;
 }
 /* home  */
@@ -57,32 +56,48 @@
     min-width: 100%;
     display: flex;
     background-color: #48CFCB;
+    overflow: auto;
 }
 .navbar{
     background-color: #48CFCB;
-    padding:13px;
+    padding:8px;
+    overflow: auto;
 }
 ul{
     display: flex;
-    list-style-type: none;
     background-color: #48CFCB ;
-  
+    margin-left: 650px;
 }
-ul li{
-  padding:12px 20px;
-  text-decoration: none;
-  background-color:  #48CFCB;
-
-}
-ul li Link{
+.link{
     text-decoration-line: none;
+    color :black;
+    padding:18px;
+    margin-left: 30px;
+    font-size: 17px;
 }
 
 .photo1{
-    min-width:80%;
+    min-width:60%;
     height:490px;
     position: absolute;
     bottom:10px;
-    left:500px;
+    left:260px;
     mix-blend-mode:multiply;
+    opacity: 20%;
+    z-index:1;
+}
+.home{
+    overflow: hidden;
+}
+
+.login{
+    background-color: #424242;
+    width:30%;
+    height: 290px;
+    margin:0 auto;
+    margin-top:90px;
+    border-radius: 5% 5%;
+ box-shadow: 10px 5px 15px black;
+ position:relative;
+    
 }

@@ -19,7 +19,7 @@ const App = () => {
           {/* // this will only be there for the wrapper element */}
           <Route path="/" element={<LandingPage />}></Route>
           <Route path="/home" element={<Home />}>
-            <Route path="/home/login" element={<Login />} />
+            <Route path="/home" element={<Login />} />
             <Route path="/home/about" element={<About />} />
             <Route path="/home/contact" element={<Contact />} />
             <Route path="/home/register" element={<Register />} />
