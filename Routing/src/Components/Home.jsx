@@ -8,7 +8,7 @@ const Home = () => {
     <div className="home">
       <Nav1 className="navbar1" />
       <div className="image">
-        {/* <img src={photo1} className="photo1" /> */}
+        <img src={photo1} className="photo1" />
       </div>
       <Outlet />
     </div>

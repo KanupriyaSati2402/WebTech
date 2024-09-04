@@ -7,9 +7,7 @@ const Nav1 = () => {
         <ul>
           <Link className="link" to="/home/about">About page</Link>
           <Link className="link" to="/home/contact">Contact</Link>
-
           <Link className="link" to="/home/login">Login page</Link>
-
           <Link className="link" to="/home/register">Register page</Link>
         </ul>
       </div>
