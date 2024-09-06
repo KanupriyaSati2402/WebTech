@@ -10,7 +10,8 @@ const Product = () => {
   } = useLocation();
   console.log(data);
 
-  let id = useParams();
+  // let id = useParams();
+  
   let handleData=(ele)=>{
     navigate(`/viewmore/${ele.id}`, {state: ele});
   }

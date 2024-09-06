@@ -4,5 +4,9 @@ import "./global.css"
 
 createRoot(document.getElementById("root")).render(<App/>)
 
-{/* to define the element we have element  and home is main (parent) page so that's why it has / only */}
-// this all things is present in react-router-dom i.e route , routes
+// Component life cycle in FBC 
+//-- in fbc we dont have life cycle methods by using hooks  we can achieve component life cycle method 
+
+
+// className((isActive)=> isActive ? "Active" :"") 
+// to show which link is active to highlight on which page we are in 

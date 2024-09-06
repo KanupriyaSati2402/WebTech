@@ -3,7 +3,7 @@ import toast from "react-hot-toast";
 import { useLoaderData, useNavigate } from "react-router-dom";
 
 const Login = () => {
-  let navigate = useNavigate();
+  let navigate = useNavigate(); // routing hook
 
   let data = useLoaderData();
   console.log(data);
