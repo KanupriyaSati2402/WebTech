@@ -1,0 +1,21 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+.homeg{
+    height: 60vh;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    gap: 10px;
+}
+.cards{
+    height: 90%;
+    min-width: 300px;
+    border: 1px solid;
+    border-radius: 10px;
+    
+}

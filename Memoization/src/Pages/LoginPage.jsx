@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, useLoaderData, useNavigate } from 'react-router-dom';
 import { toast } from 'react-hot-toast';
+import login from '../assets/login.jpg'
 
 const LoginPage = () => {
   let Navigate = useNavigate();
@@ -47,7 +48,11 @@ else{
 }
   return (
     <section  className="login">
+         <div>
+          <img src={login}/>
+        </div>
       <form className="loginpage">
+     
        <div>
        <label>Username : </label>
        <input type="text" name="username" id="" onChange={handleChange}/> {/* write the property names inside name in input  */}
