@@ -13,7 +13,7 @@ display: none;
 .landing{
     width: 100%;
     height: 100vh;
-    background-image: url('https://img.freepik.com/premium-photo/person-is-holding-bunch-shopping-bags-with-one-them-being-pink-bag_1260445-3197.jpg?w=900');
+    background-color: #1a62fe;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -23,8 +23,7 @@ display: none;
     
 }
 .landing h1{
-    padding: 60px 20px;
-    color: azure;
+    color: rgb(0, 0, 0);
 
 }
 .landing p{
@@ -32,29 +31,35 @@ display: none;
    display: flex;
    justify-content: center;
    align-items: center;
-    padding-top: 10px ;
+   padding-top: 10px ;
     margin-left: 20px;
-    color: rgb(253, 252, 252);
+    color: rgb(0, 0, 0);
     font-size: 22px;
 }
 .page{
     width: 60%;
     height: 80vh;
-    position: relative;
     left:190px;
-    background-color: rgb(255, 142, 4);
-    border-radius: 5%;
+    background-color: rgb(252, 252, 252);
     box-shadow: 10px 20px 30px black;
 }
-.landing button{
-    width:22%;
-    height: 30px;
-    font-size: 15px;
-    position: relative;
-    top:50px;
-    left:35px;
-    /* outline-style: none; */
+.but{
+  width: 100%;
+  height: 10%;
 }
+.landing button{
+    width:20%;
+    height: 35px;
+    color:#ddd;
+    font-weight: 17px;
+    font-size: 18px;
+    background-color: #f62004;
+    border: none; 
+}
+.but .button{
+  background-color: #1a62fe;
+}
+
 .logo{
     font-size: 42px;
     color:white;
@@ -304,4 +309,11 @@ display: none;
     width: 70%;
     height: 70%;
     background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .cart .btn{
+    width: 100%;
   }
