@@ -211,6 +211,22 @@ color:white;
   font-size: 17px;
   color: white;
 }
+.household .addtocart{
+  background-color: #1a62fe;
+  width: 30%;
+  height: 30px;
+  border: none;
+  font-size: 13px;
+  color: white;
+}
+.household .buynow{
+  background-color: #f72222;
+  width: 30%;
+  height: 30px;
+  border: none;
+  font-size: 13px;
+  color: white;
+}
 
 /* login starts here  */
 .login {
