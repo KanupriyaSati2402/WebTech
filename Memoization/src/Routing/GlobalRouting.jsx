@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import { createBrowserRouter } from "react-router-dom";
 import HouseHold from "../Product/HouseHold";
 import Electronics from "../Product/Electronics";
@@ -15,6 +15,9 @@ import axios from "axios";
 import PageNotFound from "../components/PageNotFound";
 import AxiosInstance from "../axiosInstance/AxiosInstance";
 import Payment from "../components/Payment";
+import { globalVar } from "../Context/GlobalContext";
+import Clothing from './../Product/Clothing';
+
 
 export let projectRouting = createBrowserRouter([
   {
@@ -30,6 +33,7 @@ export let projectRouting = createBrowserRouter([
         path: "/home",
         element: <Home />,
         children: [
+          
           {
             path: "/home/household",
             element: <HouseHold />,
@@ -38,7 +42,7 @@ export let projectRouting = createBrowserRouter([
             path: "/home/electrical",
             element: <Electronics />,
             loader: async () => {
-              let { data } = await axios.get("http://localhost:5000/medical");
+              let { data } = await axios.get("http://localhost:5000/electrical");
               return data;
             },
           },
@@ -46,7 +50,7 @@ export let projectRouting = createBrowserRouter([
             path: "/home/beauty",
             element: <Beauty />,
             loader: async () => {
-              let { data } = await AxiosInstance.get("/medical");
+              let { data } = await axios.get("http://localhost:5000/beauty");
               return data;
             },
           },
@@ -56,8 +60,18 @@ export let projectRouting = createBrowserRouter([
             loader: async () => {
               let { data } = await axios.get("http://localhost:5000/medical");
               return data;
-            },
+            }
           },
+          {
+            path: "/home/clothing",
+            element: <Clothing/>,
+            loader: async () => {
+              let { data } = await axios.get("http://localhost:5000/clothing");
+              return data;
+            }
+          },
+        
+
         ],
       },
       {
@@ -67,22 +81,18 @@ export let projectRouting = createBrowserRouter([
       {
         path: "/login",
         element: <LoginPage />,
-        loader: async () => {
-          let { data } = await axios.get("http://localhost:5000/Credentials"); // will return a resolved promise
-          return data;
-        },
       },
       {
         path: "/register",
         element: <RegisterPage />,
       },
       {
-        path: "/about",
-        element: <About />,
-      },
-      {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/about",
+        element: <About />,
       },
       {
         path: "*",

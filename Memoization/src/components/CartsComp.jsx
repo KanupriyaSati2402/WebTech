@@ -24,24 +24,25 @@ const CartsComp = ({data:{showCart,setShowCart}}) => {
   })?.reduce((acc,cnVal)=>{return acc+cnVal},0)
   
   let proceedPayment=()=>{
-   navigate("/payment",{state:totalPrice}); // with navigate we can pass data also by using a predefined keyword called state 
+   navigate("/payment",{state:totalPrice}); 
 
   }
 
   return (
     <section className='cartComp'  onClick={handleClose}>
         <article className='cartMain' onClick={(e)=>{e.stopPropagation(),setShowCart(true)}} >
-         <div className="btn"> <button  onClick={handleClose}>Close</button></div>
+         <div > <button className="btn" onClick={handleClose}>Close</button></div>
           {cartData.length < 1 ? "Cart is Empty" : cartData.map((ele,i)=>{
-           return <div>
-            <h1>{ele.title}</h1>
-            <button onClick={()=>{removeCartItem(ele.id)}}>Remove Item</button>
+           return <div className='cart-items'>
+            <h2>{ele.title}</h2>
+            <img  className="item-image"src={ele.image}/>
+            <button className="Remove-btn" onClick={()=>{removeCartItem(ele.id)}}>Remove Item</button>
            </div>
           }) }
 
           <article className="cartBill">
-            <h1>Bill</h1>
-            <p>{totalPrice}</p>
+            <h1>Total Bill</h1>
+            <p>Price:{totalPrice} Rs</p>
             <button onClick= {proceedPayment} >Proceed for Payment</button>
 
           </article>
@@ -52,6 +53,9 @@ const CartsComp = ({data:{showCart,setShowCart}}) => {
 
 export default CartsComp
 
+
+
+// with navigate we can pass data also by using a predefined keyword called state 
 
 //optional chaining 
 // -- when there is something undefined and we are wanting to access it that time we give get an error 

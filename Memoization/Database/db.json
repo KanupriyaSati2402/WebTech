@@ -1,6 +1,65 @@
 {
-  "Cart": [],
-  "Credentials": [
+  "Cart": [
+    {
+      "id": "7",
+      "title": "Toaster",
+      "price": 29.99,
+      "description": "A 4-slice toaster with variable browning control.",
+      "category": "kitchen appliances",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4RxFMSh8k_mukvISZwPCosIoZavdwFmlfBg&s",
+      "rating": {
+        "rate": 4.3,
+        "count": 480
+      }
+    },
+    {
+      "id": "9",
+      "title": "Laundry Basket",
+      "price": 16.99,
+      "description": "A collapsible laundry basket with large capacity.",
+      "category": "laundry",
+      "image": "https://cdn.pixabay.com/photo/2017/06/17/23/14/laundry-basket-2414021_640.png",
+      "rating": {
+        "rate": 4.5,
+        "count": 390
+      }
+    },
+    {
+      "id": "8",
+      "title": "Broom",
+      "price": 12.99,
+      "description": "A durable broom with ergonomic handle and stiff bristles.",
+      "category": "cleaning tools",
+      "image": "https://cdn.pixabay.com/photo/2021/06/04/17/10/broom-6310388_640.jpg",
+      "rating": {
+        "rate": 4.2,
+        "count": 300
+      }
+    }
+  ],
+  "Admin": [
+    {
+      "username": "user1",
+      "password": "user@123",
+      "id": "e3d3"
+    },
+    {
+      "username": "admin2",
+      "password": "admin@234",
+      "id": "ee87"
+    },
+    {
+      "username": "admin3",
+      "password": "admin@345",
+      "id": "d799"
+    },
+    {
+      "username": "admin4",
+      "password": "admin@456",
+      "id": "1dfd"
+    }
+  ],
+  "User": [
     {
       "username": "user1",
       "password": "user@123",
@@ -20,144 +79,516 @@
       "username": "user4",
       "password": "user@456",
       "id": "1dfd"
-    },
-    {
-      "id": "99c7",
-      "username": "kanupriya sati",
-      "password": "kp@123",
-      "email": "ksati6331@gmail.com",
-      "phone": "7895872411"
-    },
-    {
-      "id": "ca2b",
-      "username": "_j.i.v.a_",
-      "password": "Kanupriya",
-      "email": "kanupriyasati4@gmail.com",
-      "phone": "7895872411"
-    },
-    {
-      "id": "4c8c",
-      "username": "Mantasha",
-      "password": "Mantasha",
-      "email": "user@1234gmail.com",
-      "phone": "9837191006"
-    },
-    {
-      "id": "d5ca",
-      "username": "Mantasha",
-      "password": "Mantasha",
-      "email": "user@1234gmail.com",
-      "phone": "9837191006"
-    },
-    {
-      "id": "0207",
-      "username": "Mantasha",
-      "password": "Mantasha",
-      "email": "user@1234gmail.com",
-      "phone": "9837191006"
-    },
-    {
-      "id": "7ed6",
-      "username": "kanu",
-      "password": "asdfghjkl",
-      "email": "kanu@gmail.com",
-      "phone": "7654323456"
-    },
-    {
-      "id": "1df6",
-      "username": "kanu",
-      "password": "sati",
-      "email": "kanu123@gmail.com",
-      "phone": "765434567"
     }
   ],
-  "Electrical": [
+  "HouseHold": [
     {
       "id": "1",
-      "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-      "price": 109.95,
-      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-      "category": "men's clothing",
-      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "title": "Vacuum Cleaner",
+      "price": 89.99,
+      "description": "A powerful vacuum cleaner for all surfaces. Lightweight and easy to use.",
+      "category": "cleaning tools",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP1WdpG5NvUZBliEYEhR-94mn18laq9X6YYg&s",
       "rating": {
-        "rate": 3.9,
-        "count": 120
+        "rate": 4.8,
+        "count": 980
+      }
+    },
+    {
+      "id": "2",
+      "title": "Iron",
+      "price": 39.99,
+      "description": "A fast-heating steam iron for all types of fabric.",
+      "category": "laundry",
+      "image": "https://3.imimg.com/data3/JI/IX/MY-1075976/new-iron-panthar-500x500.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 820
+      }
+    },
+    {
+      "id": "3",
+      "title": "Blender",
+      "price": 49.99,
+      "description": "A high-performance blender for smoothies and soups.",
+      "category": "kitchen appliances",
+      "image": "https://cdn.pixabay.com/photo/2011/12/05/14/51/blender-10935_640.jpg",
+      "rating": {
+        "rate": 4.5,
+        "count": 700
+      }
+    },
+    {
+      "id": "4",
+      "title": "Dish Rack",
+      "price": 19.99,
+      "description": "A durable dish rack with large capacity and easy drainage.",
+      "category": "kitchen accessories",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV6kRBnIoVLAf4o8ABY9LJX5mwVpz0qXXgIA&s",
+      "rating": {
+        "rate": 4.4,
+        "count": 540
+      }
+    },
+    {
+      "id": "5",
+      "title": "Coffee Maker",
+      "price": 79.99,
+      "description": "A programmable coffee maker with a 12-cup capacity.",
+      "category": "kitchen appliances",
+      "image": "https://cdn.pixabay.com/photo/2016/03/19/16/18/muffin-1266937_640.jpg",
+      "rating": {
+        "rate": 4.9,
+        "count": 1200
+      }
+    },
+    {
+      "id": "6",
+      "title": "Microwave Oven",
+      "price": 129.99,
+      "description": "A countertop microwave oven with 1000 watts of power.",
+      "category": "kitchen appliances",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpfkeY50FjzJ04DATYd5zKguHc2NEF2oXvPQ&s",
+      "rating": {
+        "rate": 4.7,
+        "count": 650
+      }
+    },
+    {
+      "id": "7",
+      "title": "Toaster",
+      "price": 29.99,
+      "description": "A 4-slice toaster with variable browning control.",
+      "category": "kitchen appliances",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4RxFMSh8k_mukvISZwPCosIoZavdwFmlfBg&s",
+      "rating": {
+        "rate": 4.3,
+        "count": 480
+      }
+    },
+    {
+      "id": "8",
+      "title": "Broom",
+      "price": 12.99,
+      "description": "A durable broom with ergonomic handle and stiff bristles.",
+      "category": "cleaning tools",
+      "image": "https://cdn.pixabay.com/photo/2021/06/04/17/10/broom-6310388_640.jpg",
+      "rating": {
+        "rate": 4.2,
+        "count": 300
       }
     },
     {
       "id": "9",
-      "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
-      "price": 64,
-      "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
-      "category": "electronics",
-      "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+      "title": "Laundry Basket",
+      "price": 16.99,
+      "description": "A collapsible laundry basket with large capacity.",
+      "category": "laundry",
+      "image": "https://cdn.pixabay.com/photo/2017/06/17/23/14/laundry-basket-2414021_640.png",
       "rating": {
-        "rate": 3.3,
-        "count": 203
+        "rate": 4.5,
+        "count": 390
       }
     },
     {
       "id": "10",
-      "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
-      "price": 109,
-      "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
-      "category": "electronics",
-      "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+      "title": "Electric Kettle",
+      "price": 39.99,
+      "description": "A stainless steel electric kettle with fast boiling.",
+      "category": "kitchen appliances",
+      "image": "https://cdn.pixabay.com/photo/2014/06/09/16/14/kettle-365504_640.jpg",
       "rating": {
-        "rate": 2.9,
-        "count": 470
+        "rate": 4.7,
+        "count": 950
       }
     },
     {
       "id": "11",
-      "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
-      "price": 109,
-      "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
-      "category": "electronics",
-      "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+      "title": "Fan",
+      "price": 49.99,
+      "description": "A quiet and powerful oscillating fan for cooling.",
+      "category": "home appliances",
+      "image": "https://cdn.pixabay.com/photo/2017/06/01/08/58/fan-2362875_640.jpg",
       "rating": {
-        "rate": 4.8,
-        "count": 319
+        "rate": 4.6,
+        "count": 650
       }
     },
     {
       "id": "12",
-      "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
-      "price": 114,
-      "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
-      "category": "electronics",
-      "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+      "title": "Heater",
+      "price": 89.99,
+      "description": "A compact space heater with adjustable thermostat.",
+      "category": "home appliances",
+      "image": "https://cdn.pixabay.com/photo/2017/08/21/13/45/radiator-2665428_640.jpg",
       "rating": {
-        "rate": 4.8,
-        "count": 400
+        "rate": 4.7,
+        "count": 780
       }
     },
     {
       "id": "13",
-      "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
-      "price": 599,
-      "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
-      "category": "electronics",
-      "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+      "title": "Mop",
+      "price": 15.99,
+      "description": "A microfiber mop with adjustable handle for efficient cleaning.",
+      "category": "cleaning tools",
+      "image": "https://cdn.pixabay.com/photo/2016/11/19/00/17/broom-1837434_640.jpg",
       "rating": {
-        "rate": 2.9,
-        "count": 250
+        "rate": 4.3,
+        "count": 430
       }
     },
     {
       "id": "14",
-      "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
-      "price": 999.99,
-      "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
-      "category": "electronics",
-      "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+      "title": "Air Purifier",
+      "price": 149.99,
+      "description": "A HEPA air purifier with smart sensor for cleaner air.",
+      "category": "home appliances",
+      "image": "https://cdn.pixabay.com/photo/2023/07/06/17/09/ai-generated-8110912_640.jpg",
       "rating": {
-        "rate": 2.2,
-        "count": 140
+        "rate": 4.8,
+        "count": 890
+      }
+    },
+    {
+      "id": "15",
+      "title": "Pressure Cooker",
+      "price": 99.99,
+      "description": "A multi-use pressure cooker with 8 cooking functions.",
+      "category": "kitchen appliances",
+      "image": "https://cdn.pixabay.com/photo/2024/06/26/08/00/ai-generated-8854274_640.jpg",
+      "rating": {
+        "rate": 4.9,
+        "count": 740
+      }
+    },
+    {
+      "id": "16",
+      "title": "Refrigerator",
+      "price": 599.99,
+      "description": "A stainless steel fridge with large storage capacity and energy efficiency.",
+      "category": "home appliances",
+      "image": "https://cdn.pixabay.com/photo/2018/11/04/13/29/hospitality-3793946_640.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 340
+      }
+    },
+    {
+      "id": "17",
+      "title": "Cutlery Set",
+      "price": 29.99,
+      "description": "A 16-piece stainless steel cutlery set for the kitchen.",
+      "category": "kitchen accessories",
+      "image": "https://cdn.pixabay.com/photo/2014/10/06/15/04/cutlery-476343_640.jpg",
+      "rating": {
+        "rate": 4.5,
+        "count": 410
+      }
+    },
+    {
+      "id": "18",
+      "title": "Water Filter",
+      "price": 59.99,
+      "description": "A water filtration system for pure drinking water.",
+      "category": "kitchen appliances",
+      "image": "https://cdn.pixabay.com/photo/2017/06/13/04/19/smart-plant-purifier-2397586_640.png",
+      "rating": {
+        "rate": 4.6,
+        "count": 620
+      }
+    },
+    {
+      "id": "19",
+      "title": "Chair",
+      "price": 49.99,
+      "description": "A comfortable and ergonomic chair for office or home use.",
+      "category": "furniture",
+      "image": "https://cdn.pixabay.com/photo/2019/03/21/03/29/chair-4070161_640.png",
+      "rating": {
+        "rate": 4.4,
+        "count": 510
+      }
+    },
+    {
+      "id": "20",
+      "title": "Table Lamp",
+      "price": 24.99,
+      "description": "A stylish table lamp with adjustable brightness settings.",
+      "category": "lighting",
+      "image": "https://cdn.pixabay.com/photo/2017/05/17/11/20/table-lamp-2320603_640.png",
+      "rating": {
+        "rate": 4.7,
+        "count": 470
+      }
+    },
+    {
+      "id": "21",
+      "title": "Refrigerator",
+      "price": 599.99,
+      "description": "A stainless steel fridge with large storage capacity and energy efficiency.",
+      "category": "home appliances",
+      "image": "https://cdn.pixabay.com/photo/2018/11/04/13/29/hospitality-3793946_640.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 340
       }
     }
   ],
-  "Women's_Clothing": [
+  "electrical": [
+    {
+      "id": "1",
+      "title": "Philips LED Bulb 9W",
+      "price": 2.99,
+      "description": "Energy-saving LED bulb with 9W power, long lifespan, and bright white light.",
+      "category": "lighting",
+      "image": "https://cdn.pixabay.com/photo/2018/07/13/10/32/light-bulb-3535435_640.jpg",
+      "rating": {
+        "rate": 4.5,
+        "count": 200
+      }
+    },
+    {
+      "id": "2",
+      "title": "Bosch Cordless Drill",
+      "price": 99.99,
+      "description": "Compact and powerful cordless drill for DIY projects and professional use.",
+      "category": "tools",
+      "image": "https://cdn.pixabay.com/photo/2017/04/18/15/42/akkuschrauber-2239493_640.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 150
+      }
+    },
+    {
+      "id": "3",
+      "title": "Sony 50-inch 4K Ultra HD TV",
+      "price": 499.99,
+      "description": "50-inch 4K Ultra HD smart TV with stunning picture quality and HDR support.",
+      "category": "television",
+      "image": "https://cdn.pixabay.com/photo/2016/11/21/12/10/tv-1844964_640.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 85
+      }
+    },
+    {
+      "id": "4",
+      "title": "Panasonic Microwave Oven 1200W",
+      "price": 129.99,
+      "description": "High-powered microwave oven with 1200W output and multiple cooking presets.",
+      "category": "kitchen appliances",
+      "image": "https://cdn.pixabay.com/photo/2016/06/17/14/22/network-1463383_640.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 95
+      }
+    },
+    {
+      "id": "5",
+      "title": "Dyson V11 Cordless Vacuum Cleaner",
+      "price": 599.99,
+      "description": "Advanced cordless vacuum cleaner with powerful suction and long battery life.",
+      "category": "cleaning appliances",
+      "image": "https://cdn.pixabay.com/photo/2014/07/01/10/48/cleaning-381090_640.jpg",
+      "rating": {
+        "rate": 4.9,
+        "count": 180
+      }
+    },
+    {
+      "id": "6",
+      "title": "Samsung 65-inch QLED Smart TV",
+      "price": 899.99,
+      "description": "65-inch QLED 4K Smart TV with stunning color quality and built-in Alexa.",
+      "category": "television",
+      "image": "https://cdn.pixabay.com/photo/2019/01/08/10/58/smart-home-3920905_640.jpg",
+      "rating": {
+        "rate": 4.9,
+        "count": 112
+      }
+    },
+    {
+      "id": "7",
+      "title": "LG Inverter Air Conditioner 1.5 Ton",
+      "price": 599.99,
+      "description": "Energy-efficient 1.5 Ton inverter AC with fast cooling and low noise.",
+      "category": "home appliances",
+      "image": "https://cdn.pixabay.com/photo/2021/09/08/07/20/air-conditioner-6605973_640.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 160
+      }
+    },
+    {
+      "id": "8",
+      "title": "Philips Steam Iron",
+      "price": 49.99,
+      "description": "High-performance steam iron with fast heating and anti-drip system.",
+      "category": "home appliances",
+      "image": "https://cdn.pixabay.com/photo/2019/03/18/15/04/iron-4063305_640.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 90
+      }
+    },
+    {
+      "id": "9",
+      "title": "Panasonic Bread Maker",
+      "price": 119.99,
+      "description": "Automatic bread maker with various settings for different types of bread.",
+      "category": "kitchen appliances",
+      "image": "https://cdn.pixabay.com/photo/2020/05/10/14/12/pasta-maker-5154195_640.jpg",
+      "rating": {
+        "rate": 4.5,
+        "count": 75
+      }
+    },
+    {
+      "id": "10",
+      "title": "Sony Bluetooth Soundbar",
+      "price": 199.99,
+      "description": "Premium Bluetooth soundbar with rich audio and wireless subwoofer.",
+      "category": "audio",
+      "image": "https://cdn.pixabay.com/photo/2018/11/02/05/17/headphones-3789598_640.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 110
+      }
+    },
+    {
+      "id": "11",
+      "title": "KitchenAid Stand Mixer",
+      "price": 299.99,
+      "description": "Professional-grade stand mixer with multiple attachments and speeds.",
+      "category": "kitchen appliances",
+      "image": "https://cdn.pixabay.com/photo/2020/05/28/17/16/kitchen-aid-5231908_640.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 190
+      }
+    },
+    {
+      "id": "12",
+      "title": "Apple MacBook Air M1",
+      "price": 999.99,
+      "description": "Powerful and lightweight laptop with the M1 chip for enhanced performance.",
+      "category": "laptops",
+      "image": "https://cdn.pixabay.com/photo/2016/03/27/07/12/apple-1282241_640.jpg",
+      "rating": {
+        "rate": 4.9,
+        "count": 230
+      }
+    },
+    {
+      "id": "13",
+      "title": "Dell XPS 13",
+      "price": 1299.99,
+      "description": "Sleek and powerful ultrabook with 13.3-inch display and long battery life.",
+      "category": "laptops",
+      "image": "https://cdn.pixabay.com/photo/2019/12/02/10/32/vpn-4667364_640.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 150
+      }
+    },
+    {
+      "id": "14",
+      "title": "JBL Bluetooth Speaker",
+      "price": 79.99,
+      "description": "Portable Bluetooth speaker with deep bass and 12-hour battery life.",
+      "category": "audio",
+      "image": "https://cdn.pixabay.com/photo/2020/02/08/22/27/soundboks-4831442_640.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 210
+      }
+    },
+    {
+      "id": "15",
+      "title": "Whirlpool Washing Machine 7kg",
+      "price": 399.99,
+      "description": "Front-load washing machine with 7kg capacity and energy-saving technology.",
+      "category": "home appliances",
+      "image": "https://cdn.pixabay.com/photo/2016/01/28/22/07/washing-machine-1167053_640.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 130
+      }
+    },
+    {
+      "id": "16",
+      "title": "Breville Coffee Machine",
+      "price": 249.99,
+      "description": "High-quality espresso machine with milk frother for perfect coffee at home.",
+      "category": "kitchen appliances",
+      "image": "https://cdn.pixabay.com/photo/2015/10/27/20/56/coffee-1009621_640.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 95
+      }
+    },
+    {
+      "id": "17",
+      "title": "GoPro HERO9 Black",
+      "price": 399.99,
+      "description": "Action camera with 5K video recording and built-in stabilization.",
+      "category": "cameras",
+      "image": "https://cdn.pixabay.com/photo/2020/03/16/17/01/gopro-4937635_640.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 115
+      }
+    },
+    {
+      "id": "18",
+      "title": "Anker PowerCore 20000mAh Power Bank",
+      "price": 49.99,
+      "description": "High-capacity portable power bank with fast charging and dual USB ports.",
+      "category": "accessories",
+      "image": "https://cdn.pixabay.com/photo/2015/09/05/21/48/power-bank-925569_1280.jpg",
+      "rating": {
+        "rate": 4.9,
+        "count": 140
+      }
+    },
+    {
+      "id": "19",
+      "title": "Logitech MX Master 3 Wireless Mouse",
+      "price": 99.99,
+      "description": "Ergonomic wireless mouse with customizable buttons and advanced scrolling.",
+      "category": "accessories",
+      "image": "https://cdn.pixabay.com/photo/2017/04/07/13/13/wireless-mouse-2210970_640.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 160
+      }
+    },
+    {
+      "id": "20",
+      "title": "Canon EOS Rebel T7 DSLR Camera",
+      "price": 449.99,
+      "description": "Entry-level DSLR camera with 24.1MP sensor and Full HD video recording.",
+      "category": "cameras",
+      "image": "https://cdn.pixabay.com/photo/2016/12/30/14/44/work-1940690_640.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 100
+      }
+    },
+    {
+      "id": "21",
+      "title": "Google Nest Thermostat",
+      "price": 129.99,
+      "description": "Smart thermostat with energy-saving features and app control from anywhere.",
+      "image": "https://cdn.pixabay.com/photo/2019/04/28/22/00/heating-costs-4164538_640.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 100
+      }
+    }
+  ],
+  "clothing": [
     {
       "id": "20",
       "title": "DANVOUY Womens T Shirt Casual Cotton Short",
@@ -229,9 +660,7 @@
         "rate": 2.6,
         "count": 235
       }
-    }
-  ],
-  "Jewellery": [
+    },
     {
       "id": "8",
       "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
@@ -280,11 +709,6 @@
         "count": 400
       }
     },
-    {
-      "id": "fc13"
-    }
-  ],
-  "Men's_Clothing": [
     {
       "id": "1",
       "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
@@ -573,6 +997,292 @@
       "rating": {
         "rate": 4.9,
         "count": 70
+      }
+    },
+    {
+      "id": "6",
+      "title": "Medical",
+      "price": "569",
+      "description": "It is useful for medical purpose",
+      "category": "Medical",
+      "image": ""
+    },
+    {
+      "id": "6",
+      "title": "Medical",
+      "price": "569",
+      "description": "It is useful for medical purpose",
+      "category": "Medical",
+      "image": ""
+    },
+    {
+      "id": "45",
+      "title": "Medical",
+      "price": "kjuytrfd",
+      "description": "kiuytrfghjkm",
+      "category": "Medical",
+      "image": ""
+    },
+    {
+      "id": "67",
+      "title": "Medical Kit",
+      "price": "4567",
+      "description": "It is useful for medical purpose",
+      "category": "Medical",
+      "image": ""
+    }
+  ],
+  "beauty": [
+    {
+      "id": "1",
+      "title": "Belle Eau de Parfum",
+      "price": 99.99,
+      "description": "A feminine and sophisticated fragrance with notes of iris, patchouli, and gourmand.",
+      "category": "fragrance",
+      "image": "https://cdn.pixabay.com/photo/2021/05/02/14/53/perfume-6223754_1280.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 820
+      }
+    },
+    {
+      "id": "2",
+      "title": "Luminous Intense Lip Colour",
+      "price": 45.99,
+      "description": "A long-lasting and rich lipstick that provides intense color and hydration.",
+      "category": "makeup",
+      "image": "https://cdn.pixabay.com/photo/2016/05/02/17/56/lipstick-1367771_640.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 1200
+      }
+    },
+    {
+      "id": "3",
+      "title": "Soft Matte Longwear Foundation",
+      "price": 35.99,
+      "description": "A lightweight foundation that offers buildable coverage and a soft matte finish.",
+      "category": "makeup",
+      "image": "https://media.istockphoto.com/id/1091835598/photo/powder-and-brush.jpg?s=612x612&w=0&k=20&c=RtTsS31hbFOvo6L1tyfxD8fnYQhlTAObT1Glz3DwfP4=",
+      "rating": {
+        "rate": 4.6,
+        "count": 950
+      }
+    },
+    {
+      "id": "4",
+      "title": "Advanced Night Repair Serum",
+      "price": 99.99,
+      "description": "A powerful serum that helps reduce the appearance of fine lines and wrinkles.",
+      "category": "skincare",
+      "image": "https://cdn.pixabay.com/photo/2019/07/26/16/49/cosmetics-4365152_640.jpg",
+      "rating": {
+        "rate": 4.9,
+        "count": 1100
+      }
+    },
+    {
+      "id": "5",
+      "title": " Lip Glow Color Reviver Balm",
+      "price": 34.99,
+      "description": "A hydrating lip balm that enhances the natural color of your lips.",
+      "category": "makeup",
+      "image": "https://cdn.pixabay.com/photo/2020/06/05/11/33/glass-5262911_640.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 620
+      }
+    },
+    {
+      "id": "6",
+      "title": "eye liner",
+      "price": 64.99,
+      "description": "A rich moisturizer that hydrates and plumps the skin, leaving a dewy glow.",
+      "category": "skincare",
+      "image": "https://cdn.pixabay.com/photo/2015/04/01/12/07/eyeliner-702257_1280.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 710
+      }
+    },
+    {
+      "id": "7",
+      "title": " Naked Eyeshadow Palette",
+      "price": 54.99,
+      "description": "An iconic eyeshadow palette with a range of neutral shades for any look.",
+      "category": "makeup",
+      "image": "https://cdn.pixabay.com/photo/2018/05/31/23/23/watercolor-3445376_640.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 900
+      }
+    },
+    {
+      "id": "8",
+      "title": "Olaplex Hair Perfector",
+      "price": 28.99,
+      "description": "A hair treatment that strengthens and repairs damaged hair.",
+      "category": "haircare",
+      "image": "https://cdn.pixabay.com/photo/2021/06/24/12/26/hair-6361059_640.jpg",
+      "rating": {
+        "rate": 4.9,
+        "count": 1500
+      }
+    },
+    {
+      "id": "9",
+      "title": " Creamy Concealer",
+      "price": 30.99,
+      "description": "A full-coverage concealer that brightens and perfects the skin.",
+      "category": "makeup",
+      "image": "https://cdn.pixabay.com/photo/2022/10/10/18/00/cosmetics-7512332_640.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 850
+      }
+    },
+    {
+      "id": "10",
+      "title": " Vitamin Enriched Face Base",
+      "price": 60.99,
+      "description": "A primer and moisturizer in one that preps the skin for flawless makeup application.",
+      "category": "skincare",
+      "image": "https://cdn.pixabay.com/photo/2015/11/26/00/54/cosmetics-1063134_640.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 430
+      }
+    },
+    {
+      "id": "11",
+      "title": " Sage & Sea Salt Cologne",
+      "price": 72.99,
+      "description": "A refreshing and earthy fragrance inspired by the English coast.",
+      "category": "fragrance",
+      "image": "https://cdn.pixabay.com/photo/2015/08/14/17/56/herbs-888734_640.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 580
+      }
+    },
+    {
+      "id": "12",
+      "title": " Mer Moisturizing Cream",
+      "price": 180,
+      "description": "A luxurious face cream that deeply hydrates and smooths the skin.",
+      "category": "skincare",
+      "image": "https://cdn.pixabay.com/photo/2023/10/04/12/23/cream-8293579_1280.jpg",
+      "rating": {
+        "rate": 4.9,
+        "count": 920
+      }
+    },
+    {
+      "id": "13",
+      "title": "Dyson Supersonic Hair Dryer",
+      "price": 399.99,
+      "description": "A fast-drying hair dryer with intelligent heat control to prevent damage.",
+      "category": "haircare",
+      "image": "https://cdn.pixabay.com/photo/2021/02/07/14/39/woman-5991504_640.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 750
+      }
+    },
+    {
+      "id": "14",
+      "title": "Tatcha The Water Cream",
+      "price": 68.99,
+      "description": "An oil-free moisturizer that provides balanced hydration and refines the skin.",
+      "category": "skincare",
+      "image": "https://cdn.pixabay.com/photo/2014/03/21/06/05/colors-291851_640.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 610
+      }
+    },
+    {
+      "id": "15",
+      "title": "Glossier Boy Brow",
+      "price": 16.99,
+      "description": "A brow-grooming pomade that adds thickness, shape, and definition.",
+      "category": "makeup",
+      "image": "https://cdn.pixabay.com/photo/2017/10/06/21/09/makeup-2824659_640.jpg",
+      "rating": {
+        "rate": 4.5,
+        "count": 300
+      }
+    },
+    {
+      "id": "16",
+      "title": "YSL Black Opium Eau de Parfum",
+      "price": 120.99,
+      "description": "A warm and spicy fragrance with notes of coffee, vanilla, and white flowers.",
+      "category": "fragrance",
+      "image": "https://cdn.pixabay.com/photo/2022/10/10/18/00/cosmetics-7512332_640.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 870
+      }
+    },
+    {
+      "id": "17",
+      "title": " Blanc Shimmering Body Oil",
+      "price": 100.99,
+      "description": "A luxurious body oil that adds a shimmering glow with a hint of fragrance.",
+      "category": "skincare",
+      "image": "https://cdn.pixabay.com/photo/2015/10/02/15/59/olive-oil-968657_1280.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 420
+      }
+    },
+    {
+      "id": "18",
+      "title": "They're Real! Lengthening Mascara",
+      "price": 24.99,
+      "description": "A volumizing mascara that gives dramatic length and lift.",
+      "category": "makeup",
+      "image": "https://cdn.pixabay.com/photo/2017/08/24/11/12/makeup-2676392_640.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 550
+      }
+    },
+    {
+      "id": "19",
+      "title": " T.L.C. Sukari Babyfacial",
+      "price": 80.99,
+      "description": "An AHA/BHA mask that exfoliates and resurfaces the skin for a brighter complexion.",
+      "category": "skincare",
+      "image": "https://cdn.pixabay.com/photo/2023/09/23/07/46/ai-generated-8270432_640.jpg",
+      "rating": {
+        "rate": 4.9,
+        "count": 730
+      }
+    },
+    {
+      "id": "20",
+      "title": " Merveilles Eau de Toilette",
+      "price": 115.99,
+      "description": "A woody and amber fragrance with a mysterious and enchanting allure.",
+      "category": "fragrance",
+      "image": "https://cdn.pixabay.com/photo/2017/09/13/16/08/cosmetics-2746013_640.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 200
+      }
+    },
+    {
+      "id": "21",
+      "title": "foundation",
+      "price": 99.99,
+      "description": "A feminine and sophisticated fragrance with notes of iris, patchouli, and gourmand.",
+      "category": "fragrance",
+      "image": "https://cdn.pixabay.com/photo/2016/01/20/04/36/cosmetics-1150881_640.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 820
       }
     }
   ]

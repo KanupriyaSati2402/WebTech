@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import axios from "axios";
 import toast from 'react-hot-toast';
 
+
 const RegisterPage = () => {
   let Navigate = useNavigate()
   let[user,setUser]=useState(
@@ -34,7 +35,8 @@ const RegisterPage = () => {
   }
   console.log(user)
   return (
-    <section  className="login">
+ <section  className="registers">
+  <section className="registration">
     <form className="loginpage" onSubmit={handleSubmit}>
      <div>
      <label>Name : </label>
@@ -57,6 +59,8 @@ const RegisterPage = () => {
     {/* <Link to={'/home'}>
     <button className="home">Home</button></Link> */}
   </section>
+    </section>
+   
   )
 }
 

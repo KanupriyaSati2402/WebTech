@@ -1,16 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import landing from "../assets/Landing.jpg"
 
 const Landing = () => {
   return (
     <section className="landing">
       <div className="page">
-        <div>
-        <img src={landing}/>
-        </div>
-       
-        <div>
+        <div className="pageImg"></div>
+        <div className="content">
           <h1>
             YOUR <strong>TRUSTED</strong> E-COMMERCE PLATFORM
           </h1>
@@ -19,15 +15,14 @@ const Landing = () => {
             businesses to set up and manage online stores for selling products
             like clothing, electronics, medical supplies, and household items.
           </p>
+          <div className="but">
+            <Link to="/Login">
+              <button className="get">Get Started</button>
+              <button className="read">Read More</button>
+            </Link>
+          </div>
         </div>
-        <div className="but">
-          <Link to="/Login">
-            <button>Get Started</button>
-            <button className="button">Read More</button>
-          </Link>
-        </div>
-        </div>
-      
+      </div>
     </section>
   );
 };

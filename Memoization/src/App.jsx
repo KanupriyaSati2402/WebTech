@@ -6,13 +6,13 @@ import { projectRouting } from './Routing/GlobalRouting'
 
 const App = () => {
   return (
-    <div>
+   
       <GlobalContext>
         <RouterProvider router={projectRouting} >
 
         </RouterProvider>
       </GlobalContext>
-    </div>
+   
   )
 }
 
