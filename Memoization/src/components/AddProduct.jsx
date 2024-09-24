@@ -71,7 +71,7 @@ const AddProduct = () => {
         <input type="file" name="image" id=""  />
        </div>
        
-        <button type="submit" >Add Product</button>
+        <button className='submit' type="submit" >Add Product</button>
        </form>
        </section>
        

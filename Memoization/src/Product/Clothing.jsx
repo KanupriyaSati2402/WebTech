@@ -33,7 +33,7 @@ const Clothing = () => {
         <div className="household">
           <div className="housecontent" key={i}>
           <img className="img" src={ele.image} />
-            <h2 className="title">Title :{ele.title}</h2>
+            <h2 className="title">{ele.title.slice(0,15)}</h2>
             <h2 className="price">Price :{ele.price}</h2>
             {loginType=="Admin" ? <><button className="update">Update</button> <button className="delete" onClick={()=>{deleteCart("Electrical",ele.id)}}>Delete</button></> :
               <>

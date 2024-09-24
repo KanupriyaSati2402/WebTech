@@ -38,8 +38,9 @@ const LoginPage = () => {
   let handleSubmit = (e) => {
     e.preventDefault();
     let ValidUser = loginCred.find((ele) => {
-      return ele.username === username && ele.password === password;
+      return ele.username == username && ele.password == password;
     });
+    console.log(ValidUser)
     if (ValidUser) {
       toast.success(`Login Successfull as ${loginType}`);
       setTimeout(() => {
@@ -51,6 +52,7 @@ const LoginPage = () => {
   };
   useEffect(() => {
     let fetchUsers = async () => {
+      console.log(login)
       let { data } = await AxiosInstance.get(`/${loginType}`); // will return a resolved promise
       setLoginCred(data);
     };
@@ -62,7 +64,10 @@ const LoginPage = () => {
       <div>
         <img src={login} />
       </div>
-      <h1 className="logintype">Login as {loginType}</h1>
+ 
+
+     <div  className="loginpage">
+     <h1 className="logintype">Login as {loginType}</h1>
       <div className="loginas">
         {loginTypes.map((ele) => (
           <button
@@ -75,10 +80,8 @@ const LoginPage = () => {
           </button>
         ))}
       </div>
-
-      <form className="loginpage">
-        <br />
-        <br />
+     <form>
+   
         <div>
           <label>Username : </label>
           <input
@@ -102,6 +105,7 @@ const LoginPage = () => {
           Submit
         </button>
       </form>
+     </div>
       {/* <Link to={'/home'}>
       <button className="home">Home</button></Link> */}
     </section>

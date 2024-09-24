@@ -36,19 +36,20 @@
 .content {
   height: 100%;
   width: 80%;
+  display: flex;
+  padding:50px 50px;
+  flex-wrap: wrap;
 }
 h1 {
   color: #333;
   font-size: 30px;
   font-weight: bold;
-  margin-top: 70px;
-  margin-left: 35px;
+  width: 100%;
 }
 p{
   color: #000000 !important;
   font-size: 17px !important;
-  margin-top: 20px;
-  margin-left: 35px;
+  width: 100%;
 }
 .landing strong {
   color: #0073e6;
@@ -60,24 +61,24 @@ p{
   background-color: #f7282f;
   font-size: 17px;
   color: white;
-  margin-left: 70px;
-  margin-top: 72px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.but .read {
+.but{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.but .read,.get{
   width: 35%;
   height: 40px;
   border: none;
   background-color: #265ffc;
   font-size: 17px;
   color: white;
-  margin-left: 80px;
-  margin-top: 42px;
-}
-.but h2{
-  color: #333;
-  font-size: 30px;
-  font-weight: bold;
-  padding: 12px;
+  text-decoration: none;
 }
 /* Ends here  */
 
@@ -86,13 +87,18 @@ p{
   /* text-decoration:none;
   border:none; */
 }
+.logo a{
+  text-decoration: none;
+}
 .zoho{
   font-size: 42px;
   color: white;
+  /* text-decoration: none; */
 }
 .logo strong{
 font-size: 32px;
 color:white;
+background-color: transparent;
 
 }
 .homepage {
@@ -186,7 +192,7 @@ color:white;
   width: 85%;
   height: 89vh;
   /* background-color: red; */
-  border: 1px solid;
+  /* border: 1px solid; */
   overflow-y: auto;
   display: flex;
   justify-content: space-between;
@@ -237,7 +243,7 @@ color:white;
   background-color: #f4f6f8;
 }
 .login img {
-  width: 100%;
+  min-width: 100%;
   height: 100vh;
   border-radius: 0px 20px 20px 0px;
 }
@@ -246,10 +252,15 @@ color:white;
   padding: 40px;
   border-radius: 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0);
-  width: 450px;
+  width: 35%;
   min-height: 80%;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap ;
+  gap: 20px;
   margin-right: 100px;
+ 
 }
 
 .loginpage label {
@@ -292,6 +303,7 @@ color:white;
   background-color: #10005e;
 }
 .loginpage .loginas{
+  width: 100%;
   height: 5vh;
   color: white;
   border: none;
@@ -304,9 +316,7 @@ color:white;
   width:30%;
 }
 .loginpage .logintype{
-   position:relative;
-   bottom:42px;
-   right:20px;
+ width: 100%;
 }
 
 /* login ends here  */
@@ -418,6 +428,7 @@ h2 {
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+   overflow-y: auto;
 }
 
 .cart-items {
@@ -433,7 +444,14 @@ h2 {
   font-size: 16px;
   font-weight: 600;
 }
+.container-cart{
+ 
+  overflow-y: auto;}
 
+  .cartsItems{
+    height: 40vh;
+    overflow-y: auto;
+  }
 .item-image {
   width: 60px;
   height: 60px;
@@ -566,3 +584,61 @@ h2 {
   background-color: white;
 }
 
+/* .addProduct */
+
+.addProduct {
+  width:500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #d6eafc;
+}
+
+.addprod {
+  background-color: #d6eafc;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.addprod form {
+  background-color: #d6eafc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.addprod div {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: 200px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+input[type="text"], input[type="file"], select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit {
+  background-color: #0752f5;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}

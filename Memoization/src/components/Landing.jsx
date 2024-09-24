@@ -16,10 +16,10 @@ const Landing = () => {
             like clothing, electronics, medical supplies, and household items.
           </p>
           <div className="but">
-            <Link to="/Login">
-              <button className="get">Get Started</button>
-              <button className="read">Read More</button>
+            <Link  className="get" to="/Login">
+            Get Started
             </Link>
+            <button className="read">Read More</button>
           </div>
         </div>
       </div>

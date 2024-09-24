@@ -70,6 +70,10 @@ export let projectRouting = createBrowserRouter([
               return data;
             }
           },
+          {
+            path: "/home/about",
+            element: <About />,
+          },
         
 
         ],
@@ -90,10 +94,7 @@ export let projectRouting = createBrowserRouter([
         path: "/contact",
         element: <Contact />,
       },
-      {
-        path: "/about",
-        element: <About />,
-      },
+  
       {
         path: "*",
         element: <PageNotFound />,

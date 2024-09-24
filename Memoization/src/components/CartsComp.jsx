@@ -31,14 +31,15 @@ const CartsComp = ({data:{showCart,setShowCart}}) => {
   return (
     <section className='cartComp'  onClick={handleClose}>
         <article className='cartMain' onClick={(e)=>{e.stopPropagation(),setShowCart(true)}} >
-         <div > <button className="btn" onClick={handleClose}>Close</button></div>
-          {cartData.length < 1 ? "Cart is Empty" : cartData.map((ele,i)=>{
+         <div className='container-cart'> 
+          <button className="btn" onClick={handleClose}>Close</button></div>
+         <div className="cartsItems"> {cartData.length < 1 ? "Cart is Empty" : cartData.map((ele,i)=>{
            return <div className='cart-items'>
             <h2>{ele.title}</h2>
             <img  className="item-image"src={ele.image}/>
             <button className="Remove-btn" onClick={()=>{removeCartItem(ele.id)}}>Remove Item</button>
            </div>
-          }) }
+          }) }</div>
 
           <article className="cartBill">
             <h1>Total Bill</h1>

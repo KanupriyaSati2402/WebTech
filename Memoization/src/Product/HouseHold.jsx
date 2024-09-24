@@ -12,6 +12,7 @@ const HouseHold = () => {
   let handleSub = async (ele) => {
     await axios.post("http://localhost:5000/Cart", ele);
     let { data } = await axios.get(`http://localhost:5000/Cart/${ele.id}`);
+    setUpdate(update+1)
     
   };
 
@@ -39,7 +40,7 @@ const HouseHold = () => {
               <img className="img" src={ele.image} />
               <h2 className="title">Title :{ele.title}</h2>
               <h2 className="price">Price :{Math.round(ele.price * 83.930)}Rs</h2>
-              {loginType=="Admin" ? <><button className="update">Update</button> <button className="delete" onClick={()=>{deleteCart("Electrical",ele.id)}}>Delete</button></> :
+              {loginType=="Admin" ? <><button className="update">Update</button> <button className="delete" onClick={()=>{deleteCart("HouseHold",ele.id)}}>Delete</button></> :
               <>
               {newArr.includes(cartData[i]?.id)? (
                console.log(newArr),

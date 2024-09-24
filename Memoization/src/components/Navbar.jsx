@@ -14,7 +14,7 @@ const Navbar = ({data:{showCart,setShowCart}}) => {
   <div className='navbar'>
   <NavLink to={"/login"} className={({isActive})=> (isActive ? "active" :"")}>Login</NavLink>
   <NavLink to={"/register"} className={({isActive})=> (isActive ? "active" :"")}>Register</NavLink>
-  <NavLink to={"/about"} className={({isActive})=>(isActive ?"active" :"")}>About</NavLink>
+  <NavLink to={"/home/about"} className={({isActive})=>(isActive ?"active" :"")}>About</NavLink>
   <NavLink to={"/contact"} className={({isActive})=>(isActive ?"active" :"")}>Contact</NavLink>
   <div className="cart"  onClick={()=>{setShowCart(true)}}><FaCartShopping className='i'/></div>
   </div>
