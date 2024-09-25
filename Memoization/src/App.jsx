@@ -1,23 +1,17 @@
 import React from 'react'
-import GlobalContext from './Context/GlobalContext'
-import { RouterProvider } from 'react-router-dom';
-import { projectRouting } from './Routing/GlobalRouting'
+import { Provider } from 'react-redux';
+import store from './Store';
+import Counter1 from './Counter1';
 
 
 const App = () => {
   return (
-   
-      <GlobalContext>
-        <RouterProvider router={projectRouting} >
-
-        </RouterProvider>
-      </GlobalContext>
-   
+   <Provider store={store}>
+    <Counter1/>
+   </Provider>
   )
 }
 
 export default App
 
-//json-server --watch Database/db.json --port=5000
-//serverName --watch foldername/filename --port=5000
-
+// if there are many component then we will do routing only for we will be passing routing componrnt here 
